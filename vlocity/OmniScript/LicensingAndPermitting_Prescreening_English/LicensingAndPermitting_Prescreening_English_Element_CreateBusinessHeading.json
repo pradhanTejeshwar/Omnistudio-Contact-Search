@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateBusinessHeading",
+    "OmniProcessId": {
+        "Name": "Prescreening",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Results",
+        "OmniProcessId": {
+            "Name": "Prescreening",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/Results",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Results",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": "<table style=\"height: 46px; width: 708px; background-color: #f4f4f4;\">\n<tbody>\n<tr style=\"height: 51px;\">\n<td style=\"width: 51px; height: 51px;\">&nbsp;<img src=\"../servlet/servlet.ImageServer?id=015RO00000097ZSYAY&amp;&amp;docName=CABJAGCEA4fb04c77ee8f4b52a9c00ea84502db42&amp;&amp;oid=00DRO0000008okx\" alt=\"\" width=\"44\" height=\"24px\" /></td>\n<td style=\"width: 656px; height: 51px;\">\n<h2><span style=\"color: #454545;\"><strong>&nbsp;Create your business</strong></span></h2>\n</td>\n</tr>\n</tbody>\n</table>",
+        "labelKey": ""
+    },
+    "Type": "Headline",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/CreateBusinessHeading"
+}

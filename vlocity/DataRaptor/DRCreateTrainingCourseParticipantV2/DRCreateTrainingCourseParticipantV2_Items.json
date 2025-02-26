@@ -1,0 +1,120 @@
+[
+    {
+        "GlobalKey": "DRCreateTrainingCourseParticipantV29901924433921867",
+        "InputFieldName": "DRContactForUser:ContactId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ContactId",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRCreateTrainingCourseParticipantV21644105030581937",
+        "InputFieldName": "PgMedTrainings:PgMedicalTraining:ProgramName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LookupByFieldName": "Name",
+        "LookupObjectName": "CourseOffering",
+        "LookupReturnedFieldName": "Id",
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CourseOfferingId",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRCreateTrainingCourseParticipantV25841639285016298",
+        "InputFieldName": "PgMedTrainings:PgMedicalTraining:ProgramEndDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EndDate",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRCreateTrainingCourseParticipantV233181363511966366",
+        "InputFieldName": "DRId_TrainingCourseParticipant",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": true,
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "DRCreateTrainingCourseParticipantV25381920292143942",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRCreateTrainingCourseParticipantV215808174660843233",
+        "InputFieldName": "PgMedTrainings:PgMedicalTraining:ProgramStartDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreateTrainingCourseParticipantV2",
+        "OmniDataTransformationId": {
+            "Name": "DRCreateTrainingCourseParticipantV2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreateTrainingCourseParticipantV2",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "StartDate",
+        "OutputObjectName": "TrainingCourseParticipant",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

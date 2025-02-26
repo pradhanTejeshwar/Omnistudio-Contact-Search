@@ -1,0 +1,143 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom975",
+        "InputFieldName": "AccountId",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom6969",
+        "InputFieldName": "Birthdate",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom2878",
+        "InputFieldName": "Email",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom1153",
+        "InputFieldName": "FirstName",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom922",
+        "InputFieldName": "GenderIdentity",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterDataType": "ID",
+        "FilterGroup": 0,
+        "FilterOperator": "IN",
+        "FilterValue": "AllMembersContactIds",
+        "GlobalKey": "PSSEXPCloudGetContactDetailsForContactIdsTurboCustom0jIRM0000004DzM2AUItem0",
+        "InputFieldName": "Id",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+        "OmniDataTransformationId": {
+            "Name": "PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSEXPCloudGetContactDetailsForContactIdsTurbo",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "ContactsList",
+        "OutputObjectName": "Turbo Extract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

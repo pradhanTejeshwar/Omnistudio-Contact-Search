@@ -1,0 +1,26 @@
+{
+    "CustomJavaScript": "Contact_Fetch_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IP_ContactSearch",
+    "OmniProcessElement": [
+        "Contact_Fetch_Element_fetchContactRecords.json",
+        "Contact_Fetch_Element_transformOutputData.json",
+        "Contact_Fetch_Element_returnContactRecords.json"
+    ],
+    "OmniProcessKey": "Contact_Fetch",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Contact_Fetch_PropertySetConfig.json",
+    "SubType": "Fetch",
+    "Type": "Contact",
+    "UniqueName": "Contact_Fetch_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Contact/Fetch/Procedure"
+}

@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "PSSCreateBenefitAssignmentAdjustment",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_Element_FetchProgram.json",
+        "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_Element_SetValuesForBenefitAssignmentAdjustmentCreation.json",
+        "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_Element_CreateBenefitAssignmentAdjustment.json",
+        "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_PropertySetConfig.json",
+    "SubType": "PSSCreateBenefitAssignmentAdjustment",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_PSSCreateBenefitAssignmentAdjustment_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/PSSCreateBenefitAssignmentAdjustment/Procedure"
+}

@@ -1,0 +1,149 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": "adsf",
+        "Submission Date": "2020-03-02"
+    },
+    "APPLICANT_INFORMATION": {
+        "DegreesHeld": null,
+        "EmailOfPersonAccount": "test@test.com",
+        "GenderOfPersonAccount": "Male",
+        "IsLanguagesSpokenOther": true,
+        "LanguagesSpoken": "Other",
+        "OtherLanguage": "asdf",
+        "PersonAccountDob": "1974-03-05",
+        "PersonAccountLastName": "test",
+        "PersonAccountName": "ACT - 1",
+        "RaceEthnicity": "Black/African American",
+        "RaceEthnicityHasChooseNotToDisclose": false,
+        "RaceEthnicitySelCountGtOne": false,
+        "RaceEthnicityValidate": false,
+        "SSN": null,
+        "Telephone1": "9898989898"
+    },
+    "ApplicationStatus": "Submitted",
+    "AssociatedAccountId": "001RM000004eZGJYA2",
+    "AuthorizationTypeId": "0ehRM0000004C9NYAU",
+    "BusinessActivityId": "2gFRM0000004C9S2AU",
+    "ContactId": "003RM000006GmF9YAK",
+    "ContactName": "Dieggo John",
+    "ContextId": "",
+    "DRId_Case": "500RM000002hw7eYAA",
+    "DRId_IndividualApplication": "0f2RM0000004C9IYAU",
+    "DRId_OccupationLicenseApplication": "0f2RM0000004C9IYAU",
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": "License by Examination ($805.00)",
+        "AssociatedPersonAccount": "ACT - 1",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "BusinessActivity": "ACT 1 BT1",
+        "GraduateType": "U.S./Canada",
+        "Industries": "Healthcare",
+        "ProfessionalDesignation": "Medicine & Surgery (MD)",
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": {
+            "DegreeCertAwarded": "tewst",
+            "GradCity": "Toronto",
+            "GradCountry": "Canada",
+            "GradState": "ON",
+            "GraduationDate": "2020-03-02",
+            "MedSchoolName": "asdf"
+        }
+    },
+    "MailingAddress": {
+        "BusinessAddress": {
+            "BizEmail": null,
+            "BizTelephone": null,
+            "BizZipCode": null,
+            "BusinessCity": null,
+            "BusinessState": null,
+            "CurrentBusinessAddress": null
+        },
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": true,
+        "HomeAddress": {
+            "CHA": "2245 Islington Avenue",
+            "HomeCity": "Toronto",
+            "HomeEmail": null,
+            "HomePhone": null,
+            "HomeState": "ON",
+            "ZipCode": 342134
+        },
+        "IsBizAddrSelected": false,
+        "IsHomeAddrSelected": true,
+        "MailingAddrSelect": "HomeAddress"
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": "2021-03-31",
+            "IssueDate": "2020-03-01",
+            "Jurisdiction": "eadsfasf",
+            "LicenseNumber": "2342424"
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": "asdf",
+            "LastNameOther": "asdf"
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": "adsfasdf",
+            "CertifyingBoard": "asdfasdf"
+        },
+        "PracticeSpeciality": "teasdfsaf"
+    },
+    "PersonAccountId": "001RM000004eZGJYA2",
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": "San Francisco",
+            "ProgramCountry": "United States",
+            "ProgramEndDate": "2020-03-17",
+            "ProgramName": "tesate",
+            "ProgramStartDate": "2020-03-02",
+            "ProgramState": "CA",
+            "ProgramTypeofPosition": null
+        }
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": false,
+        "ScreenQuestion2": false,
+        "ScreenQuestion3": false,
+        "ScreenQuestion4": true,
+        "ScreenQuestion5": false,
+        "ScreenQuestion6": false,
+        "ScreenQuestion7": false
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": "adf",
+            "EmploymentCity": "London",
+            "EmploymentCountry": "United Kingdom",
+            "EmploymentEndDate": "2020-03-02",
+            "EmploymentStartDate": "2020-03-09",
+            "EmploymentState": "TELANGANA",
+            "ReasonForLeaving": "asdfasfd"
+        }
+    },
+    "error": "OK",
+    "id": "a3KRM000000005h2AA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-03-31T05:02:26.359Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    }
+}

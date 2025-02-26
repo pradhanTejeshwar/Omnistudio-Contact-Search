@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "PSSExpCloud_CalculateBenefitAmount",
+    "Namespace": "",
+    "UniqueName": "PSSExpCloud_CalculateBenefitAmount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/PSSExpCloud_CalculateBenefitAmount"
+}

@@ -1,0 +1,27 @@
+{
+    "Description": "User acknowledgement child omniscript",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "SignatureCapture",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_SignatureCapture_English_Element_Acknowledgement.json",
+        "ChangeOfCircumstances_SignatureCapture_English_Element_PSS_BM_COC_v1_AcknowledgementText.json",
+        "ChangeOfCircumstances_SignatureCapture_English_Element_LineBreak1.json",
+        "ChangeOfCircumstances_SignatureCapture_English_Element_PSS_BM_COC_v1_UserSignature.json",
+        "ChangeOfCircumstances_SignatureCapture_English_Element_PSS_BM_COC_v1_SignatureDate.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ChangeOfCircumstances_SignatureCapture_English_PropertySetConfig.json",
+    "SubType": "SignatureCapture",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_SignatureCapture_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/SignatureCapture/English"
+}

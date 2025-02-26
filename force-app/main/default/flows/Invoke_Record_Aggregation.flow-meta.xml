@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Record_Aggregation</name>
+        <label>Record Aggregation</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <actionName>runRecordAggrBatchProcDef</actionName>
+        <actionType>runRecordAggrBatchProcDef</actionType>
+        <inputParameters>
+            <name>executionReferenceId</name>
+            <value>
+                <stringValue>9N1IU000000L4fJ0AS</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>Invoke Record Aggregation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Invoke Record Aggregation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <startElementReference>Record_Aggregation</startElementReference>
+    <status>Active</status>
+</Flow>

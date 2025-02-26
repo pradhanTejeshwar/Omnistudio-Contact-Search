@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artigos de benefícios do centro de serviços de RH</description>
+        <label>RH - Benefícios</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artigos de relações com os funcionários do centro de serviços de RH</description>
+        <label>RH - Relações com os funcionários</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artigos gerais do centro de serviços de RH</description>
+        <label>RH - Geral</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artigos de licenças do centro de serviços de RH</description>
+        <label>RH - Licença</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artigos de integração do centro de serviços de RH</description>
+        <label>RH - Integração</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artigos de folha de pagamentos do centro de serviços de RH</description>
+        <label>RH - Folha de pagamentos</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Crie um artigo de conhecimento para conteúdo de tecnologia de informação como, por exemplo, soluções de desempenho de aplicações, equipamento ou acesso</description>
+        <label>Artigo de conhecimento de TI</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

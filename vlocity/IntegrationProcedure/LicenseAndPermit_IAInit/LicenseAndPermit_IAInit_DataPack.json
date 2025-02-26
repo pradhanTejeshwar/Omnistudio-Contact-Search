@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "IndividualApplicationInit",
+    "OmniProcessElement": [
+        "LicenseAndPermit_IAInit_Element_SetContext.json",
+        "LicenseAndPermit_IAInit_Element_DRContactForUser.json",
+        "LicenseAndPermit_IAInit_Element_DRPersonAccountForContact.json",
+        "LicenseAndPermit_IAInit_Element_IfIsIAReturned.json",
+        "LicenseAndPermit_IAInit_Element_DRGetWasOlaReturned.json",
+        "LicenseAndPermit_IAInit_Element_returnInitConfig.json"
+    ],
+    "OmniProcessKey": "LicenseAndPermit_IAInit",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "LicenseAndPermit_IAInit_PropertySetConfig.json",
+    "SubType": "IAInit",
+    "Type": "LicenseAndPermit",
+    "UniqueName": "LicenseAndPermit_IAInit_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/LicenseAndPermit/IAInit/Procedure"
+}

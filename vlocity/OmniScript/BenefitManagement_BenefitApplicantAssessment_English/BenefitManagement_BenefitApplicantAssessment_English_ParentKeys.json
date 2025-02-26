@@ -1,0 +1,11 @@
+[
+    "DataRaptor/PSSCheckUserType1",
+    "DataRaptor/PSSExpCloudCreatePreliminaryApplicationReferenceFromAssessment1",
+    "DataRaptor/PSSExpCloudMapBenefitAssessmentResponseToPDF1",
+    "DataRaptor/PSSExpCloudPrepareApplicationDataForReview1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus1",
+    "DataRaptor/PSSFetchReturnedToApplicantStatus1",
+    "ExpressionSet/PSSExpCloud_CalculateBenefitAmount",
+    "IntegrationProcedure/BenefitManagement_CreateIndividualApplicationAndRelatedRecords",
+    "IntegrationProcedure/BenefitManagement_ModifyReturnedIndividualApplication"
+]

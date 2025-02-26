@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ה-Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>ה-Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא הטבות</description>
+        <label>משאבי אנוש - הטבות</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא יחסי עובדים</description>
+        <label>משאבי אנוש - יחסי עבודה</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים כלליים</description>
+        <label>משאבי אנוש - כללי</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא חופשה</description>
+        <label>משאבי אנוש - חופשות</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא קליטה</description>
+        <label>משאבי אנוש - קליטה</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>מרכז שירות משאבי אנוש - מאמרים בנושא משכורת</description>
+        <label>משאבי אנוש - משכורות</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>צור מאמר Knowledge עבור תוכן בנושא טכנולוגיית מידע, כגון ציוד, גישה או פתרונות הקשורים לביצועי יישומים</description>
+        <label>מאמר Knowledge בנושא IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

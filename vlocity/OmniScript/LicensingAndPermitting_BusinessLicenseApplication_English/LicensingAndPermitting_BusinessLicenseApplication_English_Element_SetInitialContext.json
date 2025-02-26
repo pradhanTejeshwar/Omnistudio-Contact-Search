@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetInitialContext",
+    "OmniProcessId": {
+        "Name": "Business License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ApplicationStatus": "Submitted",
+            "PayChoice": "later",
+            "SampleUser": "=IF(%ContextId%=NULL,%userId%,%ContextId%)",
+            "isBLASubmitted": "=CONTAINS(%BlaCreatedText%, \"0f0\")",
+            "isEditable": "=(%isBLASubmitted%=true&&%WasReturned%=true) || %isBLASubmitted%=false"
+        },
+        "label": "",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English/SetInitialContext"
+}

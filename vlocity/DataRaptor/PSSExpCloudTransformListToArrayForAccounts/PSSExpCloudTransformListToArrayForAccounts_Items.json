@@ -1,0 +1,49 @@
+[
+    {
+        "FilterGroup": 0,
+        "FormulaExpression": "AccountsList:Id",
+        "FormulaResultPath": "FormulaList",
+        "FormulaSequence": 1,
+        "GlobalKey": "PSSExpCloudTransformListToArrayForAccountsCustom0jIRM0000004Dzl2AEItem0",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSExpCloudTransformListToArrayForAccounts",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudTransformListToArrayForAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudTransformListToArrayForAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSExpCloudTransformListToArrayForAccountsCustom0jIRM0000004Dzl2AEItem1",
+        "InputFieldName": "FormulaList",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSExpCloudTransformListToArrayForAccounts",
+        "OmniDataTransformationId": {
+            "Name": "PSSExpCloudTransformListToArrayForAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSExpCloudTransformListToArrayForAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AllMembersAccountIds",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{ }",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

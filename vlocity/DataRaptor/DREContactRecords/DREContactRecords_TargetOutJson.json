@@ -1,0 +1,15 @@
+{
+    "Contact": [
+        {
+            "BirthDate": "2025-02-04",
+            "Email": "a@1.c",
+            "FirstName": "a",
+            "LastName": "a",
+            "MailingCity": "a",
+            "MailingPostalCode": "asd",
+            "MailingState": null,
+            "MailingStreet": "a",
+            "Phone": "1212312312"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetReturnedApplicationValues",
+    "OmniProcessId": {
+        "Name": "ChangeOfCircumstancesReportChangeOfCircumstances",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "IndividualApplicationId": "%ReturnedIndividualApplicationStatus:Id%",
+            "IsApplicationEdited": false,
+            "IsReturnedApplicationSubmitted": false,
+            "WasApplicationReturned": "%ReturnedIndividualApplicationStatus:WasReturned%"
+        },
+        "label": "Set Returned Application Values",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DoesPreliminaryApplicationReferenceExist"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English/SetReturnedApplicationValues"
+}

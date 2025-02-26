@@ -1,0 +1,50 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ConfirmationResubmit",
+    "OmniProcessId": {
+        "Name": "Business License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "Business License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "ConfirmationResubmit",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "resubmit",
+                        "field": "PayChoice"
+                    }
+                ]
+            }
+        },
+        "text": "<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #169179;\">Your application was submitted.</span></div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\">&nbsp;</div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #000000;\">Your application ID is %CreatedApplicationId%.</span></div>\n<div class=\"slds-p-bottom_x-small\" style=\"text-align: center;\">\n<p>Please submit payment in a timely fashion or this application will not be processed.</p>\n</div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English/ConfirmationResubmit"
+}

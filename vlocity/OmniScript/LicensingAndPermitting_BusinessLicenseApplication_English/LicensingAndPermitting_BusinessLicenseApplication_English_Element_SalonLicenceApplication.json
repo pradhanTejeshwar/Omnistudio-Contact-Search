@@ -1,0 +1,22 @@
+{
+    "EmbeddedOmniScriptKey": "LicensingAndPermitting|Salon|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SalonLicenceApplication",
+    "OmniProcessId": {
+        "Name": "Business License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "Salon",
+        "Type": "LicensingAndPermitting",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessLicenseApplication/English/SalonLicenceApplication"
+}

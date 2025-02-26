@@ -1,0 +1,50 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock2",
+    "OmniProcessId": {
+        "Name": "Check Eligibility and Assign Benefit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "DisplayEligibleBenefitAmount",
+        "OmniProcessId": {
+            "Name": "Check Eligibility and Assign Benefit",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English/DisplayEligibleBenefitAmount",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "DisplayEligibleBenefitAmount",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "$Vlocity.NULL",
+                        "field": "EligibleBenefitAmount"
+                    }
+                ]
+            }
+        },
+        "text": "<p style=\"text-align: center;\">The participants are eligible to recieve the benefit amount<strong> <span style=\"color: #2dc26b;\">$ %EligibleBenefitAmount%</span></strong></p>\n<p style=\"text-align: center;\">To view the reasoning behind the eligibility determination, access the decision explainer log from the individual application page.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English/TextBlock2"
+}

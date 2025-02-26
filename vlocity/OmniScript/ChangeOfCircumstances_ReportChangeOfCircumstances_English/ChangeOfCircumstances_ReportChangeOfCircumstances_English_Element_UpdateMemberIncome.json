@@ -1,0 +1,33 @@
+{
+    "EmbeddedOmniScriptKey": "ChangeOfCircumstances|UpdateMemberIncome|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "UpdateMemberIncome",
+    "OmniProcessId": {
+        "Name": "ChangeOfCircumstancesReportChangeOfCircumstances",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "UpdateMemberIncome",
+        "Type": "ChangeOfCircumstances",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "ChangeOfCircumstancesReportAChange:PSS_BM_v3_ChangeOfCircumstancesReportChangeIncome"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English/UpdateMemberIncome"
+}

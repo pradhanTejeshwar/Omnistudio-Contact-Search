@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "OpenBusinessHeading",
+    "OmniProcessId": {
+        "Name": "Prescreening",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Results",
+        "OmniProcessId": {
+            "Name": "Prescreening",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/Results",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Results",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": "<table style=\"height: 46px; width: 708px; background-color: #f4f4f4;\">\n<tbody>\n<tr>\n<td style=\"width: 57px;\">&nbsp;<img src=\"../servlet/servlet.ImageServer?id=015RO00000097ZTYAY&amp;&amp;docName=CABJAGCEAabf0183208f34776889dbc6066784b05&amp;&amp;oid=00DRO0000008okx\" alt=\"\" width=\"44\" height=\"24px\" /></td>\n<td style=\"width: 664px;\">\n<h2><span style=\"color: #454545;\"><strong>&nbsp;Prepare to open</strong></span></h2>\n</td>\n</tr>\n</tbody>\n</table>",
+        "labelKey": ""
+    },
+    "Type": "Headline",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/OpenBusinessHeading"
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Статьи по выплатам в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: выплаты</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статьи по взаимоотношениям между сотрудниками в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: взаимоотношения между сотрудниками</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статьи по общим вопросам в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: общее</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статьи по отпускам в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: отпуска</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статьи по адаптации в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: адаптация</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статьи по расчету заработной платы в Центре услуг по подбору кадров</description>
+        <label>Подбор кадров: расчет заработной платы</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Создание статьи Knowledge для содержимого по информационным технологиям (например, оборудование, доступ или решения для повышения производительности приложения)</description>
+        <label>Статья Knowledge по информационным технологиям</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

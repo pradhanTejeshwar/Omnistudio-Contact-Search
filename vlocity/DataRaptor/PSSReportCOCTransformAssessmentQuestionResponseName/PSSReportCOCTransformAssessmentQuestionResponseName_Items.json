@@ -1,0 +1,24 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "PSSReportCOCTransformAssessmentQuestionResponseNameCustom0jIxx00000000BJEAYItem0",
+        "InputFieldName": "User:Name",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "PSSReportCOCTransformAssessmentQuestionResponseName",
+        "OmniDataTransformationId": {
+            "Name": "PSSReportCOCTransformAssessmentQuestionResponseName",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/PSSReportCOCTransformAssessmentQuestionResponseName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "LoggedInUserName:HouseholdMemberName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

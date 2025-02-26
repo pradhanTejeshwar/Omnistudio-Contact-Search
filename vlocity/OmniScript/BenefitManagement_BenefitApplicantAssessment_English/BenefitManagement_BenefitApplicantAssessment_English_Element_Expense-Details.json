@@ -1,0 +1,77 @@
+{
+    "EmbeddedOmniScriptKey": "BenefitManagement|ExpenseDetails|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Expense Details",
+    "OmniProcessId": {
+        "Name": "Benefit Applicant Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/BenefitApplicantAssessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "ExpenseDetails",
+        "Type": "BenefitManagement",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsApplicationSubmitted"
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "WasApplicationReturned"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsReturnedApplicationSubmitted"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "In Review",
+                                    "field": "IndividualApplicationStatus"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "PowerCustomerSuccess",
+                                    "field": "UserType"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsApplicationEdited"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "IsEditByCaseWorkerAllowed"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/BenefitApplicantAssessment/English/Expense Details"
+}

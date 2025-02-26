@@ -1,0 +1,95 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "PSS_BM_v3_Select_the_programs_that_you_ve_applied_for",
+    "OmniProcessId": {
+        "Name": "Update HouseHold Member Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "HouseholdInformation",
+        "OmniProcessId": {
+            "Name": "Update HouseHold Member Details",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/HouseholdInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "HouseholdInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Select the programs that you've applied for",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": "Health Care/Medicaid",
+                "name": "Health Care/Medicaid",
+                "value": "Health Care/Medicaid"
+            },
+            {
+                "developerName": "Housing Assistance",
+                "name": "Housing Assistance",
+                "value": "Housing Assistance"
+            },
+            {
+                "developerName": "General Assistance",
+                "name": "General Assistance",
+                "value": "General Assistance"
+            },
+            {
+                "developerName": "Supplemental Nutrition Assistance Program (SNAP)",
+                "name": "Supplemental Nutrition Assistance Program (SNAP)",
+                "value": "Supplemental Nutrition Assistance Program (SNAP)"
+            },
+            {
+                "developerName": "Temporary Assistance for Needy Families (TANF)",
+                "name": "Temporary Assistance for Needy Families (TANF)",
+                "value": "Temporary Assistance for Needy Families (TANF)"
+            },
+            {
+                "developerName": "Child Care Assistance Program (CCAP)",
+                "name": "Child Care Assistance Program (CCAP)",
+                "value": "Child Care Assistance Program (CCAP)"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Multi-select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/PSS_BM_v3_Select_the_programs_that_you_ve_applied_for"
+}

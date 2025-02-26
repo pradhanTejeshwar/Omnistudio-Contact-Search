@@ -1,0 +1,49 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TattooLicense",
+    "OmniProcessId": {
+        "Name": "Prescreening",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "OperateBusiness",
+        "OmniProcessId": {
+            "Name": "Prescreening",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Prescreening/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/OperateBusiness",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "OperateBusiness",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "exprShowTattooLicense"
+                    }
+                ]
+            }
+        },
+        "text": "<table style=\"height: 29px; width: 708px;\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"width: 578px; height: 16px;\">\n<p><span style=\"color: #000000;\"><a href=\"https://en.wikipedia.org/wiki/License\" target=\"_blank\"> <strong> Tattoo License </strong></a></span></p>\n<p><strong><span style=\"color: #615d5d;\"> Health and Mental Hygiene, Department </span></strong></p>\n</td>\n<td style=\"width: 76px; height: 16px; text-align: right;\"><button class=\"slds-button slds-button_neutral\" style=\"width: 100px;\"> <a href=\"../s/apply-license-permit\" target=\"_blank\" style=\"display: block; text-decoration: none;\">Apply</a> </button></td>\n</tr>\n</tbody>\n</table>\n<hr style=\"margin: 10px 0 10px 0;\" width=\"708px\" />",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Prescreening/English/TattooLicense"
+}

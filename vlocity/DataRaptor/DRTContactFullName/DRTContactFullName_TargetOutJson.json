@@ -1,0 +1,17 @@
+{
+    "Contact": [
+        {
+            "City": "New York",
+            "DateOfBirth": "1994-02-16",
+            "EmailAddress": "wla@gj.com",
+            "FullName": {
+                "FirstName": "Abigail",
+                "LastName": "Adams"
+            },
+            "PhoneNumber": "+1987654320",
+            "State": "NY",
+            "StreetAddress": "Street 1234",
+            "ZipCode": "123456"
+        }
+    ]
+}

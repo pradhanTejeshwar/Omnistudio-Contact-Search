@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artiklar om förmåner i HR-servicecenter</description>
+        <label>HR - Förmåner</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artiklar om medarbetarrelationer i HR-servicecenter</description>
+        <label>HR - Medarbetarrelationer</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Allmänna artiklar i HR-servicecenter</description>
+        <label>HR - Allmänt</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artiklar om frånvaro i HR-servicecenter</description>
+        <label>HR - Frånvaro</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artiklar om introduktioner i HR-servicecenter</description>
+        <label>HR - Introduktion</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artiklar om löner i HR-servicecenter</description>
+        <label>HR - Löner</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Skapa en kunskapsartikel för informationsteknologiskt innehåll, t.ex. lösningar för utrustning, åtkomst eller tillämpningsprestanda</description>
+        <label>IT-kunskapsartiklar</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

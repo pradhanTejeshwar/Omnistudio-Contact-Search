@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Sozialleistungen</description>
+        <label>HR: Sozialleistungen</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Mitarbeiterbeziehungen</description>
+        <label>HR: Mitarbeiterbeziehungen</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Allgemeine HR-Service-Center-Artikel</description>
+        <label>HR: Allgemein</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zu Urlaub</description>
+        <label>HR: Urlaub</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zur Einarbeitung</description>
+        <label>HR: Einarbeitung</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR-Service-Center-Artikel zur Gehaltsabrechnung</description>
+        <label>HR: Gehaltsabrechnung</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Erstellen Sie einen Knowledge-Artikel für Inhalte aus dem Bereich &quot;Informationstechnologie&quot;, beispielsweise Geräte, Zugriff oder Lösungen für Anwendungsleistung.</description>
+        <label>IT-Knowledge-Artikel</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

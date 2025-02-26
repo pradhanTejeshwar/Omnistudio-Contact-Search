@@ -1,0 +1,5 @@
+[
+    "DataRaptor/PSSFetchPartyIncomeForDateRange1",
+    "DataRaptor/PSSFetchPartyIncomeSpanningDate1",
+    "DataRaptor/PSSUpsertPartyIncome1"
+]

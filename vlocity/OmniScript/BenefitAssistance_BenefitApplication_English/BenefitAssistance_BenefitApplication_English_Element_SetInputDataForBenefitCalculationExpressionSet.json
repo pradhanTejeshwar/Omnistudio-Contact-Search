@@ -1,0 +1,62 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetInputDataForBenefitCalculationExpressionSet",
+    "OmniProcessId": {
+        "Name": "Apply For A Benefit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/BenefitApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "input": {
+                "AreThereChildrenInTheHousehold": "%HouseholdInformation:AreThereChildrenInTheHousehold%",
+                "AreThereDisabledHouseholdMembers": "%HouseholdInformation:AreThereDisabledHouseholdMembers%",
+                "AreThereElderlyHouseholdMembers": "%HouseholdInformation:AreThereElderlyHouseholdMembers%",
+                "ChildCareAmount": "%HouseholdExpenseDetails:ChildCareAmount%",
+                "ChildSupportAmount": "%HouseholdExpenseDetails:ChildSupportAmount%",
+                "GarnishmentsAmount": "%HouseholdExpenseDetails:GarnishmentsAmount%",
+                "InputHouseholdSize": "%HouseholdInformation:HouseholdSize%",
+                "InsurancePremiumAmount": "%HouseholdExpenseDetails:InsurancePremiumAmount%",
+                "MedicalExpensesAmount": "%HouseholdExpenseDetails:MedicalExpensesAmount%",
+                "PrimaryHeatType": "%HousingAndHeating:HeatingDetails:PrimaryHeatSource:PrimaryHeatType%",
+                "PrimaryHeatingBillAmount": "%HousingAndHeating:HeatingDetails:PrimaryHeatSource:PrimaryHeatingBillAmount%",
+                "ReimbursementAmount": "%HouseholdExpenseDetails:ReimbursementAmount%",
+                "RepresentativePayeeFees": "%HouseholdExpenseDetails:RepresentativePayeeFees%",
+                "SecondaryHeatType": "%HousingAndHeating:HeatingDetails:SecondaryHeatSource:SecondaryHeatType%",
+                "SecondaryHeatingBillAmount": "%HousingAndHeating:HeatingDetails:SecondaryHeatSource:DefaultSecondaryHeatingBillAmount%",
+                "SpousalSupportAmount": "%HouseholdExpenseDetails:SpousalSupportAmount%",
+                "TotalHouseholdIncome": "%Income:TotalHouseholdIncome%"
+            }
+        },
+        "label": "Set Input Data to Calculate Benefit Amount",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsApplicationSubmitted"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/BenefitApplication/English/SetInputDataForBenefitCalculationExpressionSet"
+}

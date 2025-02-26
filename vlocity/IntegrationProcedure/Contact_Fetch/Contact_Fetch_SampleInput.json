@@ -1,0 +1,32 @@
+{
+    "Records": null,
+    "Step1": {
+        "Block1": {
+            "BirthDate": "2025-02-04",
+            "Email": "a@1.c",
+            "FirstName": "a",
+            "LastName": "a",
+            "MailingCity": "a",
+            "MailingPostalCode": "asd",
+            "MailingState": null,
+            "MailingStreet": "a",
+            "Phone": "1212312312"
+        }
+    },
+    "language": "English",
+    "localTimeZoneName": "Asia/Kolkata",
+    "omniProcessId": "0jNIU000000Tdry2AC",
+    "omniscriptId": "0jNIU000000Tdry2AC",
+    "runMode": "preview",
+    "sId": "0jNIU000000Tdry2AC",
+    "subType": "Search",
+    "theme": "lightning",
+    "timeStamp": "2025-02-22T18:08:03.952Z",
+    "type": "Contact",
+    "userCurrencyCode": "INR",
+    "userId": "005IU00000BsSJRYA3",
+    "userName": "sage56952-zh2d@force.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "330",
+    "userTimeZoneName": "Asia/Kolkata"
+}

@@ -1,0 +1,79 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "fetchContactRecords",
+    "OmniProcessId": {
+        "Name": "IP_ContactSearch",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Contact/Fetch/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "DREContactRecords",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "Step1:Block1:FirstName",
+                "inputParam": "inputParamFirstName"
+            },
+            {
+                "element": "Step1:Block1:LastName",
+                "inputParam": "inputParamLastName"
+            },
+            {
+                "element": "Step1:Block1:Birthdate",
+                "inputParam": "inputParamBirthdate"
+            },
+            {
+                "element": "Step1:Block1:Email",
+                "inputParam": "inputParamEmail"
+            },
+            {
+                "element": "Step1:Block1:Phone",
+                "inputParam": "inputParamPhone"
+            },
+            {
+                "element": "Step1:Block1:MailingStreet",
+                "inputParam": "inputParamMailingStreet"
+            },
+            {
+                "element": "Step1:Block1:MailingCity",
+                "inputParam": "inputParamMailingCity"
+            },
+            {
+                "element": "Step1:Block1:MailingState",
+                "inputParam": "inputParamMailingState"
+            },
+            {
+                "element": "Step1:Block1:MailingPostalCode",
+                "inputParam": "inputParamMailingPostalCode"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataMapperExtractAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Contact/Fetch/Procedure/fetchContactRecords"
+}

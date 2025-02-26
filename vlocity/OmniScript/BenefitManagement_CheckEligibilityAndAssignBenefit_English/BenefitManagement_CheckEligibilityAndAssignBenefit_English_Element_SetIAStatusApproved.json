@@ -1,0 +1,84 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetIAStatusApproved",
+    "OmniProcessId": {
+        "Name": "Check Eligibility and Assign Benefit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "BenefitAssignmentDetails": {
+                "AcccountId": "%AccountId%",
+                "BenefitId": "%ApproveApplication:Benefit%",
+                "EndDate": "%ApproveApplication:EndDate%",
+                "EntitlementAmount": "%ApproveApplication:EntitlementAmount%",
+                "ParentRecordId": "%ContextId%",
+                "PayoutFrequency": "%ApproveApplication:PayoutFrequency%",
+                "ProgramEnrollmentName": "%HouseholdName% Enrollment",
+                "ProgramId": "%ProgramId%",
+                "StartDate": "%ApproveApplication:StartDate%",
+                "TotalApprovedAmount": "%ApproveApplication:TotalApprovedAmount%"
+            },
+            "IndividualApplicationId": "%ContextId%",
+            "IndividualApplicationStatus": "Approved"
+        },
+        "label": "SetIAStatusApproved",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "$Vlocity.NULL",
+                        "field": "EligibleBenefitAmount"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "In Review",
+                                    "field": "IAStatus:Status"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Application Accepted",
+                                    "field": "IAStatus:Status"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "IAStatus:IsBAPresent"
+                    },
+                    {
+                        "condition": ">",
+                        "data": "0",
+                        "field": "EligibleBenefitAmount"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/CheckEligibilityAndAssignBenefit/English/SetIAStatusApproved"
+}

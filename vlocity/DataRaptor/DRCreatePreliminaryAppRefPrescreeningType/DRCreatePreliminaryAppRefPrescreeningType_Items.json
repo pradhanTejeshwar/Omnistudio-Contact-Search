@@ -1,0 +1,122 @@
+[
+    {
+        "FormulaExpression": "\"../s/resume-application?OmniScriptInstanceId=\"+sInstanceId",
+        "FormulaResultPath": "savedOmniApplicationUrl",
+        "FormulaSequence": 1,
+        "GlobalKey": "30254d66-e82b-4a3f-ad94-54a320a8b7e1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "\"New Business Prescreening - \"+timeStamp",
+        "FormulaResultPath": "ApplicationName",
+        "FormulaSequence": 2,
+        "GlobalKey": "83def79b-eaea-4b4a-96a8-f0fccea2351b",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "80e4cc27-5a44-453c-a19f-44d4586042c7",
+        "InputFieldName": "ApplicationName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ApplicationName",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "BusinessPrescreening",
+        "GlobalKey": "762d53d8-6544-41fb-b4da-5ff4a57f4b43",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "ApplicationType",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "15d8e1b3-91b8-417f-b308-9883e83f479b",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "c1c7fde5-c904-4f38-bb46-8f3ad3b44dd7",
+        "InputFieldName": "savedOmniApplicationUrl",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+        "OmniDataTransformationId": {
+            "Name": "DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRCreatePreliminaryAppRefPrescreeningType",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "SavedApplicationUrl",
+        "OutputObjectName": "PreliminaryApplicationRef",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

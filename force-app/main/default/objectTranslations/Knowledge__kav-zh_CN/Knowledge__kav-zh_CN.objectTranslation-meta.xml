@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>HR 服务中心福利文章</description>
+        <label>HR - 福利</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心员工关系文章</description>
+        <label>HR - 员工关系</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>常规 HR 服务中心文章</description>
+        <label>HR - 常规</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心休假文章</description>
+        <label>HR - 休假</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心入职文章</description>
+        <label>HR - 入职</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HR 服务中心薪酬文章</description>
+        <label>HR - 薪酬</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>创建信息技术内容的 Knowledge 文章，例如设备、访问权限或应用程序性能解决方案</description>
+        <label>IT Knowledge 文章</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

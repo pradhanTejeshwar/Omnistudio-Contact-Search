@@ -1,0 +1,40 @@
+{
+    "APPLICANT_INFORMATION": {
+        "AssociatedPersonAccount": "ACT - 1"
+    },
+    "ApplicationStatus": "Submitted",
+    "ContactId": "003RM000006GmF9YAK",
+    "ContactName": "Dieggo John",
+    "ContextId": "",
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": "License by Examination ($805.00)",
+        "AssociatedPersonAccount": "ACT - 1",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "BusinessActivity": "ACT 1 BT1",
+        "GraduateType": "U.S./Canada",
+        "Industries": "Healthcare",
+        "ProfessionalDesignation": "Medicine & Surgery (MD)",
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "error": "OK",
+    "id": "a3KRM000000005h2AA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-å03-25T15:04:48.502Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    }
+}

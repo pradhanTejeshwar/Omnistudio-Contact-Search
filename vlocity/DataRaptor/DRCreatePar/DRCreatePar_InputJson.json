@@ -1,0 +1,185 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": "Isaac Newton",
+        "Submission Date": "2020-04-28"
+    },
+    "APPLICANT_INFORMATION": {
+        "BothNotToDiscloseAndRaceEthnicityChosen": false,
+        "DegreesHeld": "MD_Degree",
+        "GenderOfPersonAccount": "Male",
+        "IsLanguagesSpokenOther": true,
+        "LanguagesSpoken": "Other",
+        "OtherLanguage": null,
+        "PersonAccountDob": "2020-04-21",
+        "RaceEthnicity": "Caucasian/White",
+        "RaceEthnicityHasChooseNotToDisclose": false,
+        "RaceEthnicitySelCountGtOne": false,
+        "RaceEthnicityValidate": true,
+        "SSN": null,
+        "Telephone1": "1231231231"
+    },
+    "ApplicationStatus": "Submitted",
+    "ApplicationType": "Individual",
+    "AssociatedPersonAccountEmail": "isaac.newton@johnhopkins.com",
+    "AssociatedPersonAccountFirstName": "Isaac",
+    "AssociatedPersonAccountId": "001B000001KGdjDIAT",
+    "AssociatedPersonAccountLastName": "Newton",
+    "AuthorizationTypeId": "0ehB00000004C9DIAU",
+    "BusinessActivityId": "2gFB00000004C94MAE",
+    "ContactEmail": "isaac.newton@johnhopkins.com",
+    "ContactId": "003B000000HKbXdIAL",
+    "ContactName": "Isaac Newton",
+    "ContextId": "",
+    "CreatedOlaName": "OLA-0000000001",
+    "DRId_Case": "500B0000005KoCXIA0",
+    "DRId_OccupationLicenseApplication": "0f2B00000000001IAA",
+    "IntroScreen": {
+        "IsExistingApplication": false
+    },
+    "IsOlaSubmitted": false,
+    "IsPreviewMode": true,
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": "License by Examination ($805.00)",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "Physician License",
+        "BusinessActivity": "Medical Practitioner / Physician",
+        "GraduateType": "U.S./Canada",
+        "Industries": "Healthcare",
+        "ProfessionalDesignation": "Osteopathy & Surgery (DO)",
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": {
+            "DegreeCertAwarded": "MBBS",
+            "GradCity": "Valsad",
+            "GradCountry": "India",
+            "GradState": "GJ",
+            "GraduationDate": "2013-04-11",
+            "MedSchoolName": "John Hopkins"
+        }
+    },
+    "MailingAddress": {
+        "BusinessAddress": null,
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": true,
+        "HomeAddress": {
+            "CHA": "Gachiwad Road",
+            "HomeCity": "Valsad",
+            "HomeEmail": null,
+            "HomePhone": "",
+            "HomeState": "GJ",
+            "ZipCode": 396001
+        },
+        "IsBizAddrSelected": false,
+        "IsHomeAddrSelected": true,
+        "MailingAddrSelect": "HomeAddress"
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": "2020-04-01",
+            "IssueDate": "2019-04-23",
+            "Jurisdiction": "CA",
+            "LicenseNumber": "A12390B"
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": null,
+            "LastNameOther": null
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": "CCRA",
+            "CertifyingBoard": "CE"
+        },
+        "PracticeSpeciality": "ABC",
+        "PracticeSpecialityList": "EM"
+    },
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": "Valsad",
+            "ProgramCountry": "India",
+            "ProgramEndDate": "2020-04-03",
+            "ProgramName": "Certificate in Emergency Medicine",
+            "ProgramStartDate": "2012-04-04",
+            "ProgramState": "GJ",
+            "ProgramTypeofPosition": "Fellowship"
+        }
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": false,
+        "ScreenQuestion2": false,
+        "ScreenQuestion3": false,
+        "ScreenQuestion4": false,
+        "ScreenQuestion5": false,
+        "ScreenQuestion6": false,
+        "ScreenQuestion7": false
+    },
+    "SamplePersonUser": "005B0000006jnYhIAI",
+    "TypeOfApplication": {
+        "IsSubmittedOlaEditable": true
+    },
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": "John Hopkins",
+            "EmploymentCity": "Valsad",
+            "EmploymentCountry": "India",
+            "EmploymentEndDate": "2020-04-28",
+            "EmploymentStartDate": "2018-04-11",
+            "EmploymentState": "GJ",
+            "ReasonForLeaving": "Higher Studies"
+        }
+    },
+    "error": "OK",
+    "id": "a3LB0000000U8kqMAC",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a3KB0000003aUexMAE",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://lpi226release--vlocity-ins.visualforce.com",
+    "timeStamp": "2020-04-28T10:38:12.253Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B0000006j7GuIAåI",
+    "userName": "lpi_226release@lpi.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APPLICANT_AFFIDAVIT": 20976,
+        "APPLICANT_INFORMATION": 34758,
+        "Confirmation": 9466,
+        "DRContactForUser": 8898,
+        "DRCreateOccupationLicenseApplication": 1314,
+        "DRGetIdsToSetOla": 1580,
+        "DRGetOlaName": 616,
+        "DRGetWasOlaReturned": 2846,
+        "DRPersonAccountForContact": 3834,
+        "DRPostActionCreatePersonEducation": 618,
+        "DRPostActionTrainingCourseParticipant": 816,
+        "DRPostActionUpdateOla": 715,
+        "ImpMesgOnUpdatingContactInfo": 2847,
+        "IntroScreen": 7164,
+        "LICENCETYPE_AND_FEES": 29017,
+        "MEDICAL_SCHOOLS_ATTENDED": 33484,
+        "MailingAddress": 20472,
+        "OTHER_MEDICAL_LICENSES": 23962,
+        "OmniScriptSessionToken": "fbc7fc49-d3d6-4a9b-9063-f5fc6def9ce1",
+        "OtherNamesUsed": 5756,
+        "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": 26711,
+        "PgMedTrainings": 51806,
+        "REQUIRED_SCREENING_QUESTIONS": 3702,
+        "SetContext": 652,
+        "SetIsOlaSubmitted1": 72,
+        "SetPreviewModeOff": 79,
+        "SetPreviewModeOn": 16,
+        "SetStatus": 34,
+        "TypeOfApplication": 5679,
+        "WORK_EXPERIENCE": 409457
+    }
+}

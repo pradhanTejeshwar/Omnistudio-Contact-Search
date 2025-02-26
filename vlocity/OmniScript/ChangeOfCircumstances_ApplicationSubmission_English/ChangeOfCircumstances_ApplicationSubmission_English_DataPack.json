@@ -1,0 +1,30 @@
+{
+    "Description": "Application submission omniscript",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "ApplicationSubmission",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_ApplicationSubmissionConfirmation.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_ReturnedApplicationSubmissionMessage.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_TextBlock2.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_SubmissionConfirmationLineBreak1.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_LineBreak1.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_LineBreak2.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_PSS_BM_COC_v1_ApplicationSubmissionConfirmationText.json",
+        "ChangeOfCircumstances_ApplicationSubmission_English_Element_PSS_BM_COC_v1_SubmittedApplicationDetailsText.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ChangeOfCircumstances_ApplicationSubmission_English_PropertySetConfig.json",
+    "SubType": "ApplicationSubmission",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_ApplicationSubmission_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ApplicationSubmission/English"
+}

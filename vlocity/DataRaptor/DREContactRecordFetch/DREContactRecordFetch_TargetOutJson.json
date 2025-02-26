@@ -1,0 +1,15 @@
+{
+    "Contact": [
+        {
+            "City": "FAIRBANKS",
+            "DateOfBirth": "1986-02-12",
+            "EmailAddress": "rajeevsharma@gmail.com",
+            "FirstName": "Rajeev",
+            "LastName": "Sharma",
+            "PhoneNumber": "2582528582",
+            "State": "AK",
+            "StreetAddress": "1001 NOBLE ST STE 1",
+            "ZipCode": "99701"
+        }
+    ]
+}

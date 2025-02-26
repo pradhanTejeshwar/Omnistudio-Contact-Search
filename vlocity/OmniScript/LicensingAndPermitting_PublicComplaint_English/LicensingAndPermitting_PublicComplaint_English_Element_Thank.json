@@ -1,0 +1,40 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Thank",
+    "OmniProcessId": {
+        "Name": "PublicComplaint",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PublicComplaint/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ComplaintSubmitted",
+        "OmniProcessId": {
+            "Name": "PublicComplaint",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PublicComplaint/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PublicComplaint/English/ComplaintSubmitted",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ComplaintSubmitted",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Thank you Text",
+        "sanitize": false,
+        "show": null,
+        "text": "<div class=\"slds-illustration slds-illustration_small pc-message-container\">\n<div class=\"slds-text-longform\"><span class=\"success-icon\">&nbsp;</span>\n<h2 class=\"slds-text-heading_medium\">Your complaint against %Complaint:AccountName% was submitted.</h2>\n<h3 class=\"slds-text-body_regular\">The complaint number is <strong>%publicComplaintName%</strong>.</h3>\n<p></p>\n<!-- <p><button class=\"slds-button slds-button_neutral\"> <a href=\"../s/file-a-complaint\" target=\"_top\" style=\"display: block; text-decoration: none;\">File Another Complaint</a> </button></p> --></div>\n</div>\n<div class=\"slds-size--1-of-1 slds-medium-size--12-of-12 button-container\">\n<div class=\"slds-grid slds-wrap slds-grid--pull-padded vlc-slds-small--size-column\" style=\"justify-content: space-between;\">\n<div class=\"slds-size--1-of-1 slds-medium-size--2-of-12 vlc-slds-remote-action--button\">\n<p><button class=\"slds-button slds-button_neutral\"> <a href=\"/s\" target=\"_top\" style=\"display: block; text-decoration: none;\">Go To Home</a> </button></p>\n</div>\n<div class=\"slds-size--1-of-1 slds-medium-size--3-of-12 vlc-slds-remote-action--button button-right\">\n<p><button class=\"slds-button slds-button_neutral\"> <a href=\"/s/file-a-complaint\" target=\"_top\" style=\"display: block; text-decoration: none;\">File Another Complaint</a> </button></p>\n</div>\n</div>\n</div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PublicComplaint/English/Thank"
+}

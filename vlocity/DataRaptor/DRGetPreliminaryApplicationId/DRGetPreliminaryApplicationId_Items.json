@@ -1,0 +1,64 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "preliminaryApplicationId",
+        "GlobalKey": "e75ebd0c-ff18-4675-9a76-c264f4ac7614",
+        "InputFieldName": "Id",
+        "InputObjectName": "PreliminaryApplicationRef__c",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetPreliminaryApplicationId",
+        "OmniDataTransformationId": {
+            "Name": "DRGetPreliminaryApplicationId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetPreliminaryApplicationId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PreliminaryApplicationRefOmni",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "78e06c45-4253-45c1-8412-a0ca1189fe6b",
+        "InputFieldName": "PreliminaryApplicationRefOmni:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetPreliminaryApplicationId",
+        "OmniDataTransformationId": {
+            "Name": "DRGetPreliminaryApplicationId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetPreliminaryApplicationId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CreatedPreliminaryApplicationRefId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "b97fc0a0-16c2-4939-87dd-8a1d56bc0f15",
+        "InputFieldName": "PreliminaryApplicationRefOmni:PreliminaryAppRefOriginal__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetPreliminaryApplicationId",
+        "OmniDataTransformationId": {
+            "Name": "DRGetPreliminaryApplicationId",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetPreliminaryApplicationId",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CreatedStandardPARId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

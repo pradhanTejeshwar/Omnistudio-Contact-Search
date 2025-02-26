@@ -1,0 +1,16 @@
+{
+    "AccountId": "001xx000003GpB9AAK",
+    "AdjustmentType": "Payable",
+    "ApprovalStatus": "Approved",
+    "BenefitAssignmentId": "0nDxx00000002OPEAY",
+    "BenefitId": "0jixx00000001wzAAA",
+    "EntitlementAmount": 100,
+    "PayoutFrequency": "Monthly",
+    "ProcessingStatus": "Active",
+    "ProgramEnrollmentName": "Program Enrollment",
+    "Reason": "IncreasedExpense",
+    "RecurringAmount": "100",
+    "StartDate": "2023-03-01",
+    "TotalAdjustmentAmount": 4200,
+    "TotalApprovedAmount": "12300"
+}

@@ -1,0 +1,172 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": null,
+        "Submission Date": null
+    },
+    "APPLICANT_INFORMATION": {
+        "DegreesHeld": null,
+        "EmailOfPersonAccount": null,
+        "GenderOfPersonAccount": null,
+        "IsLanguagesSpokenOther": null,
+        "LanguagesSpoken": null,
+        "OtherLanguage": null,
+        "PersonAccountDob": null,
+        "PersonAccountLastName": null,
+        "PersonAccountName": null,
+        "RaceEthnicity": null,
+        "RaceEthnicityHasChooseNotToDisclose": null,
+        "RaceEthnicitySelCountGtOne": null,
+        "RaceEthnicityValidate": null,
+        "SSN": null,
+        "Telephone1": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "ImpMesgOnUpdatingContactInfo": {
+    },
+    "IntroScreen": {
+        "IsExistingApplication": null
+    },
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": null,
+        "AssociatedPersonAccount": null,
+        "AuthorizationCategory": null,
+        "AuthorizationType": null,
+        "BusinessActivity": null,
+        "GraduateType": null,
+        "Industries": null,
+        "ProfessionalDesignation": null,
+        "isBusinessActivityFilled": null,
+        "isIndustriesFilled": null
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": {
+            "DegreeCertAwarded": null,
+            "GradCity": null,
+            "GradCountry": null,
+            "GradState": null,
+            "GraduationDate": null,
+            "MedSchoolName": null
+        }
+    },
+    "MailingAddress": {
+        "BusinessAddress": {
+            "BizEmail": null,
+            "BizTelephone": null,
+            "BizZipCode": null,
+            "BusinessCity": null,
+            "BusinessState": null,
+            "CurrentBusinessAddress": null
+        },
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": null,
+        "HomeAddress": {
+            "CHA": null,
+            "HomeCity": null,
+            "HomeEmail": null,
+            "HomePhone": null,
+            "HomeState": null,
+            "ZipCode": null
+        },
+        "IsBizAddrSelected": null,
+        "IsHomeAddrSelected": null,
+        "MailingAddrSelect": null
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": null,
+            "IssueDate": null,
+            "Jurisdiction": null,
+            "LicenseNumber": null
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": null,
+            "LastNameOther": null
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": null,
+            "CertifyingBoard": null
+        },
+        "PracticeSpeciality": null,
+        "PracticeSpecialityList": null
+    },
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": null,
+            "ProgramCountry": null,
+            "ProgramEndDate": null,
+            "ProgramName": null,
+            "ProgramStartDate": null,
+            "ProgramState": null,
+            "ProgramTypeofPosition": null
+        }
+    },
+    "PreConfirmationScreen": {
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": null,
+        "ScreenQuestion2": null,
+        "ScreenQuestion3": null,
+        "ScreenQuestion4": null,
+        "ScreenQuestion5": null,
+        "ScreenQuestion6": null,
+        "ScreenQuestion7": null
+    },
+    "TypeOfApplication": {
+        "IsSubmittedOlaEditable": null
+    },
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": null,
+            "EmploymentCity": null,
+            "EmploymentCountry": null,
+            "EmploymentEndDate": null,
+            "EmploymentStartDate": null,
+            "EmploymentState": null,
+            "ReasonForLeaving": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APPLICANT_AFFIDAVIT": null,
+        "APPLICANT_INFORMATION": null,
+        "Confirmation": null,
+        "DRContactForUser": null,
+        "DRCreateOccupationLicenseApplication": null,
+        "DRGetIdsToSetOla": null,
+        "DRGetOlaName": null,
+        "DRGetPersonAccountByAcctName": null,
+        "DRGetWasOlaReturned": null,
+        "DRPostActionCreatePersonEducation": null,
+        "DRPostActionTrainingCourseParticipant": null,
+        "DRPostActionUpdateOla": null,
+        "ImpMesgOnUpdatingContactInfo": null,
+        "IntroScreen": null,
+        "LICENCETYPE_AND_FEES": null,
+        "MEDICAL_SCHOOLS_ATTENDED": null,
+        "MailingAddress": null,
+        "OTHER_MEDICAL_LICENSES": null,
+        "OtherNamesUsed": null,
+        "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": null,
+        "PgMedTrainings": null,
+        "PreConfirmationScreen": null,
+        "REQUIRED_SCREENING_QUESTIONS": null,
+        "SetContext": null,
+        "SetIsOlaSubmitted1": null,
+        "SetPreviewModeOff": null,
+        "SetPreviewModeOn": null,
+        "SetStatus": null,
+        "TypeOfApplication": null,
+        "WORK_EXPERIENCE": null
+    }
+}

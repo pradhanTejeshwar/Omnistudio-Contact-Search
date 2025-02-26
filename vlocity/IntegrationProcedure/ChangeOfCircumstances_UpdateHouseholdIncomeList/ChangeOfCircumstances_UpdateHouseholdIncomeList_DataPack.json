@@ -1,0 +1,31 @@
+{
+    "CustomJavaScript": "ChangeOfCircumstances_UpdateHouseholdIncomeList_SampleInput.json",
+    "Description": "In the household income list, separates the income details of members and the income details of removed members.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Update Household Income List",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_FetchRemovedMember.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_AddedHHMembers.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_TransformIncomeList.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_TransformMergedList.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_FinalMerge.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_SetResult.json",
+        "ChangeOfCircumstances_UpdateHouseholdIncomeList_Element_UpdatedIncomeList.json"
+    ],
+    "OmniProcessKey": "ChangeOfCircumstances_UpdateHouseholdIncomeList",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ChangeOfCircumstances_UpdateHouseholdIncomeList_PropertySetConfig.json",
+    "SubType": "UpdateHouseholdIncomeList",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_UpdateHouseholdIncomeList_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseholdIncomeList/Procedure"
+}

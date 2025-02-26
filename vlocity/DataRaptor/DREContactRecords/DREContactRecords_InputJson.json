@@ -1,0 +1,35 @@
+{
+    "fields": [
+        {
+            "Field": "FirstName",
+            "FilterNullValues": true,
+            "Operator": "equals",
+            "Value": "%contacts.firstName%"
+        },
+        {
+            "Field": "LastName",
+            "FilterNullValues": true,
+            "Operator": "equals",
+            "Value": "%contacts.lastName%"
+        },
+        {
+            "Field": "Birthdate",
+            "FilterNullValues": true,
+            "Operator": "equals",
+            "Value": "%contacts.birthDate%"
+        },
+        {
+            "Field": "Email",
+            "FilterNullValues": true,
+            "Operator": "equals",
+            "Value": "%contacts.email%"
+        },
+        {
+            "Field": "Phone",
+            "FilterNullValues": true,
+            "Operator": "equals",
+            "Value": "%contacts.phone%"
+        }
+    ],
+    "object": "Contact"
+}

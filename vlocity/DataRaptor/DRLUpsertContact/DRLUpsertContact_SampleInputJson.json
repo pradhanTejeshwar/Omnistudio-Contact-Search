@@ -1,0 +1,50 @@
+{
+    "Records": {
+        "Email": "info@salesforce.com",
+        "FirstName": "Marc",
+        "Id": "003IU00002Xx5gJYAR",
+        "LastName": "Benioff",
+        "MailingCity": "San Francisco",
+        "MailingPostalCode": "94105",
+        "MailingState": "CA",
+        "MailingStreet": "The Landmark @ One Market, Suite 300",
+        "Name": "Marc Benioff",
+        "Phone": "(415) 901-7000"
+    },
+    "Step1": {
+        "Block1": {
+            "FirstName": "marc",
+            "LastName": "ben"
+        },
+        "CustomLWC1": {
+            "updatedRecords": {
+                "Birthdate": "12/12/2012",
+                "Email": "info@salesforce.com",
+                "Id": "003IU00002Xx5gJYAR",
+                "MailingCity": "San Francisco",
+                "MailingPostalCode": "94105",
+                "MailingState": "CA",
+                "MailingStreet": "The Landmark @ One Market, Suite 300",
+                "Name": "Marc Benioff",
+                "Phone": "(415) 901-7000",
+                "selectrow": "true"
+            }
+        }
+    },
+    "language": "English",
+    "localTimeZoneName": "Asia/Kolkata",
+    "omniProcessId": "0jNIU000000Tdry2AC",
+    "omniscriptId": "0jNIU000000Tdry2AC",
+    "runMode": "preview",
+    "sId": "0jNIU000000Tdry2AC",
+    "subType": "Search",
+    "theme": "lightning",
+    "timeStamp": "2025-02-24T17:13:50.794Z",
+    "type": "Contact",
+    "userCurrencyCode": "INR",
+    "userId": "005IU00000BsSJRYA3",
+    "userName": "sage56952-zh2d@force.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "330",
+    "userTimeZoneName": "Asia/Kolkata"
+}

@@ -1,0 +1,95 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "ScreeningQuestions",
+    "OmniProcessId": {
+        "Name": "MEDICINE AND OSTEOPATHY (MD/DO) NEW LICENSE APPLICATION",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/NewDoctorsLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "REQUIRED_SCREENING_QUESTIONS",
+        "OmniProcessId": {
+            "Name": "MEDICINE AND OSTEOPATHY (MD/DO) NEW LICENSE APPLICATION",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/NewDoctorsLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/NewDoctorsLicense/English/REQUIRED_SCREENING_QUESTIONS",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "REQUIRED_SCREENING_QUESTIONS",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "true",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "false",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "CriminalHistory",
+                "value": "Have you ever been arrested, charged, convicted, pled guilty to, or pled no contest to the violation of any federal, state or other statute or ordinance constituting a felony or misdemeanor, including driving under the influence or while impaired, but excluding minor traffic violations?"
+            },
+            {
+                "name": "Malpractice",
+                "value": "Have you been a defendant or respondent to a claim for damages or a malpractice action? If you answer “Yes”, please complete the Malpractice Claims Form and submit it along with all relevant court documents (e.g., Complaint, Answer, and Final Order/Decision). A separate Malpractice Claims Form MUST be completed for each malpractice case."
+            },
+            {
+                "name": "LicenseLost",
+                "value": "Have you ever voluntarily surrendered a license or registration certificate, or allowed it to lapse, after formal charges had been brought against you or while you were under investigation?"
+            },
+            {
+                "name": "ClinicalPrivilegeLost",
+                "value": "Have you ever surrendered your clinical privileges, voluntarily or involuntarily, or had your clinical privileges denied, revoked, or suspended at any hospital or health care facility?"
+            },
+            {
+                "name": "TrainingProgramAbandoned",
+                "value": "Have you ever been terminated or resigned, voluntarily or involuntarily, from a clinical or professional training program for any reason?"
+            },
+            {
+                "name": "AdverseActionTaken",
+                "value": "Has any licensing authority, in any healthcare field, taken adverse action against your license or privileges or informed you of any pending charges?"
+            },
+            {
+                "name": "PendingInvestigation",
+                "value": "Has any licensing authority, health facility, or peer review board, in any healthcare field, informed you of any pending charge(s) or investigation(s) against you?"
+            }
+        ],
+        "radioLabelsWidth": "10",
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/NewDoctorsLicense/English/ScreeningQuestions"
+}

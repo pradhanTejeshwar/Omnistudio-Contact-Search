@@ -1,0 +1,22 @@
+{
+    "EmbeddedOmniScriptKey": "CaseProceeding|ParticipantDetails|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ParticipantDetails",
+    "OmniProcessId": {
+        "Name": "Complaint Intake",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CaseProceeding/ComplaintIntake/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "ParticipantDetails",
+        "Type": "CaseProceeding",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CaseProceeding/ComplaintIntake/English/ParticipantDetails"
+}

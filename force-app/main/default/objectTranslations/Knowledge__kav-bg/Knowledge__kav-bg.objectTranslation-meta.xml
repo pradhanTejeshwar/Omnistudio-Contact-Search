@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Статии за социални придобивки за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – социални придобивки</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за връзки със служителите за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – връзки със служителите</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за общи въпроси за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – общи въпроси</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за отпуски за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – отпуски</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за интегриране в работния процес за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – интегриране в работния процес</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Статии за ТРЗ за центъра за обслужване за човешки ресурси</description>
+        <label>Човешки ресурси – ТРЗ</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Създайте статия от Knowledge за съдържание за отдела за информационните технологии, като например решения за оборудване, достъп или решения за производителността на приложенията</description>
+        <label>Статии от Knowledge за IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

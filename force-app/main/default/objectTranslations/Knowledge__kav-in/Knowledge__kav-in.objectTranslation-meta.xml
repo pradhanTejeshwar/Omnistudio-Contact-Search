@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Artikel tunjangan Pusat Layanan SDM</description>
+        <label>SDM - Tunjangan</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel hubungan karyawan Pusat Layanan SDM</description>
+        <label>SDM - Hubungan Karyawan</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel umum Pusat Layanan SDM</description>
+        <label>SDM - Umum</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel cuti Pusat Layanan SDM</description>
+        <label>SDM - Cuti</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel orientasi karyawan baru Pusat Layanan SDM</description>
+        <label>SDM - Orientasi Karyawan Baru</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Artikel gaji Pusat Layanan SDM</description>
+        <label>SDM - Gaji</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Buat artikel pengetahuan untuk konten teknologi informasi, seperti peralatan, akses, atau solusi kinerja aplikasi</description>
+        <label>Artikel Pengetahuan TI</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+[
+    "DataRaptor/DRCreateIA",
+    "DataRaptor/DRCreatePar",
+    "DataRaptor/DRCreatePesonEductation",
+    "DataRaptor/DRCreateTrainingCourseParticipantV2",
+    "DataRaptor/DRGetBusinessActivityAuthorizationTypeId",
+    "DataRaptor/DRGetContactForUser",
+    "DataRaptor/DRGetIAApplicationName",
+    "DataRaptor/DRGetIAWasReturnedFlag",
+    "DataRaptor/DRGetPersonAccountByAcctName",
+    "DataRaptor/DRGetPersonAccountForContact",
+    "DataRaptor/DRUpdateIA",
+    "IntegrationProcedure/LicenseAndPermit_IAInit"
+]

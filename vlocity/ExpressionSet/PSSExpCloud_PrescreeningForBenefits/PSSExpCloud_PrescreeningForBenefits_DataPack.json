@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "PSSExpCloud_PrescreeningForBenefits",
+    "Namespace": "",
+    "UniqueName": "PSSExpCloud_PrescreeningForBenefits",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/PSSExpCloud_PrescreeningForBenefits"
+}

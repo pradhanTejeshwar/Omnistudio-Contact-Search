@@ -1,0 +1,27 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "ChangeOfCircumstancesReportChangeType",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_ReportChangeType_English_Element_ChangeOfCircumstancesReportAChange.json",
+        "ChangeOfCircumstances_ReportChangeType_English_Element_COCReportAChangeLineBreak1.json",
+        "ChangeOfCircumstances_ReportChangeType_English_Element_PSS_BM_v3_ChangeOfCircumstancesReportChangeMember.json",
+        "ChangeOfCircumstances_ReportChangeType_English_Element_PSS_BM_v3_ChangeOfCircumstancesReportChangeIncome.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ChangeOfCircumstances_ReportChangeType_English_PropertySetConfig.json",
+    "SubType": "ReportChangeType",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_ReportChangeType_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ReportChangeType/English"
+}

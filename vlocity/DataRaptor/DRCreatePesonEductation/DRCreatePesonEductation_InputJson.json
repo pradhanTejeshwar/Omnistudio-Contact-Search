@@ -1,0 +1,180 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": null,
+        "Submission Date": null
+    },
+    "APPLICANT_INFORMATION": {
+        "DegreesHeld": null,
+        "EmailOfPersonAccount": "john@abc.com",
+        "GenderOfPersonAccount": "Male",
+        "IsLanguagesSpokenOther": false,
+        "LanguagesSpoken": null,
+        "OtherLanguage": null,
+        "PersonAccountDob": "2020-04-14",
+        "PersonAccountLastName": "Doe",
+        "PersonAccountName": "John",
+        "RaceEthnicity": null,
+        "RaceEthnicityHasChooseNotToDisclose": false,
+        "RaceEthnicitySelCountGtOne": false,
+        "RaceEthnicityValidate": false,
+        "SSN": null,
+        "Telephone1": "2131233123"
+    },
+    "ApplicationStatus": "Submitted",
+    "AssociatedAccountId": "001RM000004eZGJYA2",
+    "AuthorizationTypeId": "0ehRM0000004C9NYAU",
+    "BusinessActivityId": "2gFRM0000004C9S2AU",
+    "ContactId": "003RM000006GmF9YAK",
+    "ContactName": "Dieggo John",
+    "ContextId": "",
+    "DRId_PersonEducation": "0SrRM0000004PCF0A2",
+    "IntroScreen": {
+        "IsExistingApplication": false
+    },
+    "IsOlaSubmitted": false,
+    "IsPreviewMode": false,
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": "License by Examination ($805.00)",
+        "AssociatedPersonAccount": "ACT - 1",
+        "AuthorizationCategory": "License",
+        "AuthorizationType": "RAT 1",
+        "BusinessActivity": "ACT 1 BT1",
+        "GraduateType": "U.S./Canada",
+        "Industries": "Healthcare",
+        "ProfessionalDesignation": "Medicine & Surgery (MD)",
+        "isBusinessActivityFilled": true,
+        "isIndustriesFilled": true
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": [
+            {
+                "DegreeCertAwarded": "MBBS",
+                "GradCity": "Baltimore",
+                "GradCountry": null,
+                "GradState": "Maryland",
+                "GraduationDate": "2006-04-04",
+                "MedSchoolName": "John Hopkins"
+            },
+            {
+                "DegreeCertAwarded": "MD",
+                "GradCity": "Stanford",
+                "GradCountry": null,
+                "GradState": "CA",
+                "GraduationDate": "2017-04-05",
+                "MedSchoolName": "Stanford University"
+            }
+        ]
+    },
+    "MailingAddress": {
+        "BusinessAddress": null,
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": true,
+        "HomeAddress": {
+            "CHA": "Gachiwad Road",
+            "HomeCity": "Valsad",
+            "HomeEmail": null,
+            "HomePhone": null,
+            "HomeState": "GJ",
+            "ZipCode": 396001
+        },
+        "IsBizAddrSelected": false,
+        "IsHomeAddrSelected": true,
+        "MailingAddrSelect": "HomeAddress"
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": null,
+            "IssueDate": null,
+            "Jurisdiction": null,
+            "LicenseNumber": null
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": null,
+            "LastNameOther": null
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": null,
+            "CertifyingBoard": null
+        },
+        "PracticeSpeciality": null,
+        "PracticeSpecialityList": null
+    },
+    "PersonAccountId": "001RM000004eZGJYA2",
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": null,
+            "ProgramCountry": null,
+            "ProgramEndDate": null,
+            "ProgramName": null,
+            "ProgramStartDate": null,
+            "ProgramState": null,
+            "ProgramTypeofPosition": null
+        }
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": false,
+        "ScreenQuestion2": false,
+        "ScreenQuestion3": false,
+        "ScreenQuestion4": false,
+        "ScreenQuestion5": false,
+        "ScreenQuestion6": false,
+        "ScreenQuestion7": false
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "TypeOfApplication": {
+        "IsSubmittedOlaEditable": true
+    },
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": null,
+            "EmploymentCity": null,
+            "EmploymentCountry": null,
+            "EmploymentEndDate": null,
+            "EmploymentStartDate": null,
+            "EmploymentState": null,
+            "ReasonForLeaving": null
+        }
+    },
+    "error": "OK",
+    "id": "a3KRM000000006B2AQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sInstanceId": "a3JRM00000000FM2AY",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-04-14T15:15:09.859Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APPLICANT_INFORMATION": 26895,
+        "DRContactForUser": 9138,
+        "DRGetIdsToSetOla": 1561,
+        "DRGetPersonAccountByAcctName": 1599,
+        "DRGetWasOlaReturned": 964,
+        "DRPostActionCreatePersonEducation": 18575,
+        "ImpMesgOnUpdatingContactInfo": 1433,
+        "IntroScreen": 5833,
+        "LICENCETYPE_AND_FEES": 25295,
+        "MEDICAL_SCHOOLS_ATTENDED": 58366,
+        "MailingAddress": 7199,
+        "OmniScriptSessionToken": "92a5ac27-a789-4a4b-a10b-d682fb4a4713",
+        "OtherNamesUsed": 2068,
+        "SetContext": 1185,
+        "SetIsOlaSubmitted1": 1086,
+        "SetPreviewModeOff": 727,
+        "SetStatus": 903,
+        "TypeOfApplication": 1209
+    }
+}

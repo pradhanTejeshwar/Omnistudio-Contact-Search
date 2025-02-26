@@ -1,0 +1,49 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValuesForProgramListReview",
+    "OmniProcessId": {
+        "Name": "Apply For A Benefit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/BenefitApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "hasCCAP": "=CONTAINS(%ProgramList%, \"CCAP\")",
+            "hasGA": "=CONTAINS(%ProgramList%, \"General Assistance\")",
+            "hasHA": "=CONTAINS(%ProgramList%, \"Housing Assistance\")",
+            "hasHCM": "=CONTAINS(%ProgramList%, \"Health Care/Medicaid\")",
+            "hasSNAP": "=CONTAINS(%ProgramList%, \"SNAP\")",
+            "hasTANF": "=CONTAINS(%ProgramList%, \"TANF\")"
+        },
+        "label": "Set Values to Review the Program List",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsApplicationSubmitted"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/BenefitApplication/English/SetValuesForProgramListReview"
+}

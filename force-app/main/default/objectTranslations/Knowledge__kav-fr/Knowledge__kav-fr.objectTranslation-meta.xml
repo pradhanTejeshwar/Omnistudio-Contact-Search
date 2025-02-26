@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Articles sur les avantages du Centre de services RH</description>
+        <label>RH - Avantages</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Articles sur les relations avec les employés du Centre de services RH</description>
+        <label>RH - Relations avec les employés</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Articles d’ordre général du Centre de services RH</description>
+        <label>RH - Général</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Articles sur les congés du Centre de services RH</description>
+        <label>RH - Congés</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Articles sur l’intégration du Centre de services RH</description>
+        <label>RH - Intégration</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Articles sur la paie du Centre de services RH</description>
+        <label>RH - Paie</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Créez un article Knowledge avec un contenu sur les technologies de l’information, tel que l’équipement, l’accès ou les solutions de performance des applications</description>
+        <label>Article Knowledge TI</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

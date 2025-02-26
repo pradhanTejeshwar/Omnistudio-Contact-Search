@@ -1,0 +1,64 @@
+{
+    "Records": [
+        {
+            "Email": "info@salesforce.com",
+            "FirstName": "Marc",
+            "Id": "003IU00002Xx5gJYAR",
+            "LastName": "Benioff",
+            "MailingCity": "San Francisco",
+            "MailingPostalCode": "94105",
+            "MailingState": "CA",
+            "MailingStreet": "The Landmark @ One Market, Suite 300",
+            "Name": "Marc Benioff",
+            "Phone": "(415) 901-7000"
+        },
+        {
+            "Id": "003IU00002Xx5fjYAB",
+            "LastName": "Radhika Madan",
+            "Name": "Radhika Madan"
+        },
+        {
+            "Email": "wla@gj.com",
+            "FirstName": "Abigail",
+            "Id": "003IU00002Xx5foYAB",
+            "LastName": "Adams",
+            "Name": "Abigail Adams"
+        }
+    ],
+    "Step1": {
+        "Block1": {
+            "FirstName": "mar",
+            "LastName": "ada"
+        },
+        "CustomLWC1": {
+            "updatedRecords": {
+                "Birthdate": "{action.result.Birthdate}",
+                "Email": "{action.result.Email}",
+                "Id": "003IU00002Xx5gCYAR",
+                "MailingCity": "{action.result.MailingCity}",
+                "MailingPostalCode": "{action.result.MailingPostalCode}",
+                "MailingState": "{action.result.MailingState}",
+                "MailingStreet": "updated Address No Street",
+                "Name": "Sujeevan",
+                "Phone": "{action.result.Phone}",
+                "selectrow": "true"
+            }
+        }
+    },
+    "language": "English",
+    "localTimeZoneName": "Asia/Kolkata",
+    "omniProcessId": "0jNIU000000Tdry2AC",
+    "omniscriptId": "0jNIU000000Tdry2AC",
+    "runMode": "preview",
+    "sId": "0jNIU000000Tdry2AC",
+    "subType": "Search",
+    "theme": "lightning",
+    "timeStamp": "2025-02-24T17:13:50.794Z",
+    "type": "Contact",
+    "userCurrencyCode": "INR",
+    "userId": "005IU00000BsSJRYA3",
+    "userName": "sage56952-zh2d@force.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "330",
+    "userTimeZoneName": "Asia/Kolkata"
+}

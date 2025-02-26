@@ -1,0 +1,83 @@
+[
+    {
+        "FormulaExpression": "\"/resume-application-ps?OmniScriptInstanceId=\"+sInstanceId",
+        "FormulaResultPath": "savedApplicationUrl",
+        "FormulaSequence": 1,
+        "GlobalKey": "e4b54784-da8c-45bc-87ae-f79cd95c6d83",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdatePremAppRefCustom",
+        "OmniDataTransformationId": {
+            "Name": "UpdatePremAppRefCustom",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdatePremAppRefCustom",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "ba84cf98-a098-4920-a3f5-18d439258983",
+        "InputFieldName": "CreatedPreliminaryApplicationRefId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdatePremAppRefCustom",
+        "OmniDataTransformationId": {
+            "Name": "UpdatePremAppRefCustom",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdatePremAppRefCustom",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Id",
+        "OutputObjectName": "PreliminaryApplicationRef__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterOperator": "=",
+        "GlobalKey": "1aa8b770-3d49-4167-9cc2-eb420449fc05",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MigrationValue": "FAKEMAPPING",
+        "Name": "UpdatePremAppRefCustom",
+        "OmniDataTransformationId": {
+            "Name": "UpdatePremAppRefCustom",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdatePremAppRefCustom",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "PreliminaryApplicationRef__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "0f3ab4e1-8b73-4015-a7eb-b405b3bf004e",
+        "InputFieldName": "savedApplicationUrl",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "UpdatePremAppRefCustom",
+        "OmniDataTransformationId": {
+            "Name": "UpdatePremAppRefCustom",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/UpdatePremAppRefCustom",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "SavedApplicationUrl__c",
+        "OutputObjectName": "PreliminaryApplicationRef__c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

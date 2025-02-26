@@ -1,0 +1,172 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": true,
+    "Name": "PSS_BM_v3_Relationship",
+    "OmniProcessId": {
+        "Name": "Household Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/HouseholdDetails/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PSS_BM_v3_HouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "Household Details",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/HouseholdDetails/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/HouseholdDetails/English/PSS_BM_v3_HouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PSS_BM_v3_HouseholdMemberDetails",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Relationship",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Self",
+                "value": "Self"
+            },
+            {
+                "autoAdv": null,
+                "name": "Spouse",
+                "value": "Spouse"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mother",
+                "value": "Mother"
+            },
+            {
+                "autoAdv": null,
+                "name": "Father",
+                "value": "Father"
+            },
+            {
+                "autoAdv": null,
+                "name": "Son",
+                "value": "Son"
+            },
+            {
+                "autoAdv": null,
+                "name": "Daughter",
+                "value": "Daughter"
+            },
+            {
+                "autoAdv": null,
+                "name": "Grandmother",
+                "value": "Grandmother"
+            },
+            {
+                "autoAdv": null,
+                "name": "Grandfather",
+                "value": "Grandfather"
+            },
+            {
+                "autoAdv": null,
+                "name": "Aunt",
+                "value": "Aunt"
+            },
+            {
+                "autoAdv": null,
+                "name": "Uncle",
+                "value": "Uncle"
+            },
+            {
+                "autoAdv": null,
+                "name": "Cousin",
+                "value": "Cousin"
+            },
+            {
+                "autoAdv": null,
+                "name": "Brother",
+                "value": "Brother"
+            },
+            {
+                "autoAdv": null,
+                "name": "Sister",
+                "value": "Sister"
+            },
+            {
+                "autoAdv": null,
+                "name": "Stepmother",
+                "value": "Stepmother"
+            },
+            {
+                "autoAdv": null,
+                "name": "Stepfather",
+                "value": "Stepfather"
+            },
+            {
+                "autoAdv": null,
+                "name": "Stepson",
+                "value": "Stepson"
+            },
+            {
+                "autoAdv": null,
+                "name": "Stepdaughter",
+                "value": "Stepdaughter"
+            },
+            {
+                "autoAdv": null,
+                "name": "Foster Child",
+                "value": "Foster Child"
+            },
+            {
+                "autoAdv": null,
+                "name": "Foster Parent",
+                "value": "Foster Parent"
+            },
+            {
+                "autoAdv": null,
+                "name": "Niece",
+                "value": "Niece"
+            },
+            {
+                "autoAdv": null,
+                "name": "Nephew",
+                "value": "Nephew"
+            },
+            {
+                "autoAdv": null,
+                "name": "Not Related",
+                "value": "Not Related"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/HouseholdDetails/English/PSS_BM_v3_Relationship"
+}

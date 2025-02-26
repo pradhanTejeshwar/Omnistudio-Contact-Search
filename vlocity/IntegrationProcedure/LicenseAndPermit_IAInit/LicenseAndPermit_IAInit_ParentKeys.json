@@ -1,0 +1,5 @@
+[
+    "DataRaptor/DRGetContactForUser",
+    "DataRaptor/DRGetIAWasReturnedFlag",
+    "DataRaptor/DRGetPersonAccountForContact"
+]

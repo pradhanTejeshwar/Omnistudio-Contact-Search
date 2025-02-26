@@ -1,0 +1,148 @@
+{
+    "APPLICANT_AFFIDAVIT": {
+        "ApplicantSign": null,
+        "Submission Date": null
+    },
+    "APPLICANT_INFORMATION": {
+        "DegreesHeld": null,
+        "EmailOfPersonAccount": null,
+        "GenderOfPersonAccount": null,
+        "IsLanguagesSpokenOther": null,
+        "LanguagesSpoken": null,
+        "OtherLanguage": null,
+        "PersonAccountDob": null,
+        "PersonAccountLastName": null,
+        "PersonAccountName": null,
+        "RaceEthnicity": null,
+        "RaceEthnicityHasChooseNotToDisclose": null,
+        "RaceEthnicitySelCountGtOne": null,
+        "RaceEthnicityValidate": null,
+        "SSN": null,
+        "Telephone1": null
+    },
+    "ApplicationStatus": "Submitted",
+    "ContactId": "003RM000006GmF9YAK",
+    "ContactName": "Dieggo John",
+    "ContextId": "",
+    "IntroScreen": {
+        "IsExistingApplication": false
+    },
+    "IsOlaSubmitted": false,
+    "IsPreviewMode": false,
+    "LICENCETYPE_AND_FEES": {
+        "ApplicationType": null,
+        "AssociatedPersonAccount": null,
+        "AuthorizationCategory": null,
+        "AuthorizationType": null,
+        "BusinessActivity": null,
+        "GraduateType": null,
+        "Industries": null,
+        "ProfessionalDesignation": null,
+        "isBusinessActivityFilled": false,
+        "isIndustriesFilled": false
+    },
+    "MEDICAL_SCHOOLS_ATTENDED": {
+        "MedicalSchoolAttended": {
+            "DegreeCertAwarded": null,
+            "GradCity": null,
+            "GradCountry": null,
+            "GradState": null,
+            "GraduationDate": null,
+            "MedSchoolName": null
+        }
+    },
+    "MailingAddress": {
+        "BusinessAddress": null,
+        "EnsureOnlyOneOfHomeBizAddrIsSelected": null,
+        "HomeAddress": null,
+        "IsBizAddrSelected": null,
+        "IsHomeAddrSelected": null,
+        "MailingAddrSelect": null
+    },
+    "OTHER_MEDICAL_LICENSES": {
+        "MedicalLicense": {
+            "ExpiryDate": null,
+            "IssueDate": null,
+            "Jurisdiction": null,
+            "LicenseNumber": null
+        }
+    },
+    "OtherNamesUsed": {
+        "OtherName": {
+            "FirstNameOther": null,
+            "LastNameOther": null
+        }
+    },
+    "PRACTICE_SPECIALTIES_AND_BOARD_CERTS": {
+        "BoardCertifiedInfo": {
+            "CertifyingAgency": null,
+            "CertifyingBoard": null
+        },
+        "PracticeSpeciality": null,
+        "PracticeSpecialityList": null
+    },
+    "PgMedTrainings": {
+        "PgMedicalTraining": {
+            "ProgramCity": null,
+            "ProgramCountry": null,
+            "ProgramEndDate": null,
+            "ProgramName": null,
+            "ProgramStartDate": null,
+            "ProgramState": null,
+            "ProgramTypeofPosition": null
+        }
+    },
+    "REQUIRED_SCREENING_QUESTIONS": {
+        "ScreenQuestion1": false,
+        "ScreenQuestion2": false,
+        "ScreenQuestion3": false,
+        "ScreenQuestion4": false,
+        "ScreenQuestion5": false,
+        "ScreenQuestion6": false,
+        "ScreenQuestion7": false
+    },
+    "SampleUser": "005RM0000025atnYAA",
+    "TypeOfApplication": {
+        "IsSubmittedOlaEditable": true
+    },
+    "WORK_EXPERIENCE": {
+        "Employer": {
+            "EmployerName": null,
+            "EmploymentCity": null,
+            "EmploymentCountry": null,
+            "EmploymentEndDate": null,
+            "EmploymentStartDate": null,
+            "EmploymentState": null,
+            "ReasonForLeaving": null
+        }
+    },
+    "error": "OK",
+    "id": "a3KRM00000000662AA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vlocity-ins.na44.visual.stmfa.stm.force.com",
+    "timeStamp": "2020-04-06T14:58:31.531Z",
+    "userCurrencyCode": "USD",
+    "userId": "005B00000065DsSIAU",
+    "userName": "sazher_patch1@salesforce.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRContactForUser": 6374,
+        "DRGetWasOlaReturned": 913,
+        "IntroScreen": 2179,
+        "OmniScriptSessionToken": "eb03f07d-261f-400e-9086-cbf97a64aacf",
+        "SetContext": 44,
+        "SetIsOlaSubmitted1": 16,
+        "SetPreviewModeOff": 62,
+        "SetStatus": 5,
+        "TypeOfApplication": 1066
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "Description": "Lets a caseworker select and add relevant case participants to a case proceeding. Captures information about the case participants.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Add Participants",
+    "OmniProcessElement": [
+        "CaseProceeding_AddParticipants_English_Element_Step1.json",
+        "CaseProceeding_AddParticipants_English_Element_CustomLWC2.json",
+        "CaseProceeding_AddParticipants_English_Element_SetErrors1.json",
+        "CaseProceeding_AddParticipants_English_Element_IntegrationProcedureAction1.json",
+        "CaseProceeding_AddParticipants_English_Element_Confirmation.json",
+        "CaseProceeding_AddParticipants_English_Element_TextBlock1.json",
+        "CaseProceeding_AddParticipants_English_Element_TextBlock3.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "OverrideKey": "pss_caseprcd_org_flows__CaseProceeding_AddParticipants_English_1",
+    "PropertySetConfig": "CaseProceeding_AddParticipants_English_PropertySetConfig.json",
+    "SubType": "AddParticipants",
+    "Type": "CaseProceeding",
+    "UniqueName": "CaseProceeding_AddParticipants_English_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CaseProceeding/AddParticipants/English"
+}

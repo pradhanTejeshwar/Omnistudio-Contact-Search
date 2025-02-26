@@ -1,0 +1,297 @@
+[
+    {
+        "FilterGroup": 1,
+        "FilterOperator": "LIKE",
+        "FilterValue": "searchTerm",
+        "GlobalKey": "1441c21e-f3e6-4d39-8e0e-b38ede79f2bd",
+        "InputFieldName": "BusinessOperatingName",
+        "InputObjectName": "BusinessProfile",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "businessProfile",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 1,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "1000",
+        "GlobalKey": "84b67115-5d43-46e7-895d-ea86e412a09e",
+        "InputObjectName": "BusinessProfile",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "businessProfile",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 2,
+        "FilterOperator": "LIKE",
+        "FilterValue": "searchTerm",
+        "GlobalKey": "0d7b4fe0-1010-4059-8294-e9eb3806ef2a",
+        "InputFieldName": "Account.Name",
+        "InputObjectName": "BusinessProfile",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "businessProfile",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 2,
+        "FilterOperator": "=",
+        "FilterValue": "businessProfile:AccountId",
+        "GlobalKey": "6157835c-3c12-4d38-ae3d-dce398d1c223",
+        "InputFieldName": "AccountId",
+        "InputObjectName": "BusinessLicense",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "businessProfile:businessLicense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 2,
+        "FilterOperator": "LIMIT",
+        "FilterValue": "1000",
+        "GlobalKey": "b467d2d4-41ea-44c8-aa98-3023cf327c04",
+        "InputObjectName": "BusinessLicense",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "businessProfile:businessLicense",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(ISBLANK(businessProfile:businessLicense:Account.BillingStreet), '' ,CONCAT(businessProfile:businessLicense:Account.BillingStreet,', ',businessProfile:businessLicense:Account.BillingCity,', ',businessProfile:businessLicense:Account.BillingState,businessProfile:businessLicense:Account.BillingZipcode,', ',businessProfile:businessLicense:Account.BillingCountry))",
+        "FormulaResultPath": "businessProfile:businessLicense:FullAddress",
+        "FormulaSequence": 1,
+        "GlobalKey": "85360ea0-eef0-4ac7-8b47-719ca1e62a1d",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(ISBLANK(businessProfile:businessLicense:Account.Name), '' , businessProfile:BusinessOperatingName)",
+        "FormulaResultPath": "businessProfile:BusinessOperatingName",
+        "FormulaSequence": 2,
+        "GlobalKey": "61d06235-0b9c-48f8-a810-5776e311c3ed",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f5a6e4f3-56dc-4402-b7e2-8e43a7843afe",
+        "InputFieldName": "businessProfile:businessLicense:AccountId",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "a58eb807-a5b5-42c9-a87c-6a77c842cd17",
+        "InputFieldName": "businessProfile:businessLicense:Account.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f2865756-271e-4843-9bbe-c463c0a10fd5",
+        "InputFieldName": "businessProfile:businessLicense:FullAddress",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Address",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f7d1e1c1-af69-4316-b6fc-4588335e29e8",
+        "InputFieldName": "businessProfile:BusinessOperatingName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BusinessOperatingName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "1c1514e9-206e-4627-a24b-5f945099fd93",
+        "InputFieldName": "businessProfile:businessLicense:BusinessType.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "BusinessTypeName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "d4384baa-f400-4e3f-9608-9c37213d0f33",
+        "InputFieldName": "businessLicense:Id",
+        "IsDisabled": true,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "8e40c83a-3c4a-4d44-8844-670165bb078b",
+        "InputFieldName": "businessProfile:businessLicense:Account.IsPersonAccount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRGetBusinessAccounts",
+        "OmniDataTransformationId": {
+            "Name": "DRGetBusinessAccounts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRGetBusinessAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "IsPersonAccount",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

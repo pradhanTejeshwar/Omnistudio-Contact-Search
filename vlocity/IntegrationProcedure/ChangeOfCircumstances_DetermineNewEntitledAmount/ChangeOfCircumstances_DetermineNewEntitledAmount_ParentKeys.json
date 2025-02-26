@@ -1,0 +1,6 @@
+[
+    "DataRaptor/FetchBenefitAssignmentsFromIA",
+    "DataRaptor/PSSFetchParentIndividualApplicationForCoCType",
+    "DataRaptor/PSSGetParentIA",
+    "IntegrationProcedure/ChangeOfCircumstances_FindEligibleBenefitAmount"
+]

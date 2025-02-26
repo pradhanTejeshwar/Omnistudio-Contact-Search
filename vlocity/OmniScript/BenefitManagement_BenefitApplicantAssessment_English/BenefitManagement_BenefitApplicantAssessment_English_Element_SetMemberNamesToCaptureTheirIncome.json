@@ -1,0 +1,88 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetMemberNamesToCaptureTheirIncome",
+    "OmniProcessId": {
+        "Name": "Benefit Applicant Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/BenefitApplicantAssessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "Options": "=ARRAY(%PSS_BM_v3_HouseholdMemberDetails:PSS_BM_v3_HouseholdMemberName%)"
+        },
+        "label": "Set Member Names to Capture Income",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsApplicationSubmitted"
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "WasApplicationReturned"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsReturnedApplicationSubmitted"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "In Review",
+                                    "field": "IndividualApplicationStatus"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "PowerCustomerSuccess",
+                                    "field": "UserType"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsApplicationEdited"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "IsEditByCaseWorkerAllowed"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/BenefitApplicantAssessment/English/SetMemberNamesToCaptureTheirIncome"
+}

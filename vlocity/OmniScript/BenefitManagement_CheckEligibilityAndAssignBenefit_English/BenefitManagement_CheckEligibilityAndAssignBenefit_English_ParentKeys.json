@@ -1,0 +1,10 @@
+[
+    "DataRaptor/PSSCreateBenefitAssignment1",
+    "DataRaptor/PSSFetchBenefitAssignment1",
+    "DataRaptor/PSSFetchBenefitProgram1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus1",
+    "DataRaptor/PSSUpdateIndividualApplicationStatus1",
+    "IntegrationProcedure/BenefitManagement_CreateHousehold",
+    "IntegrationProcedure/BenefitManagement_DetermineEligibleBenefitAmount",
+    "IntegrationProcedure/BenefitManagement_UpsertRecordsForIndividualApplication"
+]

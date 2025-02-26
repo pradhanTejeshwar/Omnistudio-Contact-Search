@@ -1,0 +1,189 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "ChangeOfCircumstancesReportChangeOfCircumstances",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "COCChangeInHouseholdMember": true,
+            "COCChangeInIncome": true,
+            "COCReportAChangeIsEdited": false,
+            "ChangeOfCircumstancesReportAChange": {
+                "COCChangeInHouseholdMember": true,
+                "COCChangeInIncome": true,
+                "COCReportAChangeIsEdited": false
+            },
+            "FinalListMerge": [
+                {
+                    "AccountId": "001xx000003Ga8tAAC",
+                    "Birthdate": "2020-01-01",
+                    "ContactId": "003xx000004WhKeAAK",
+                    "FirstName": "Demo",
+                    "HouseholdMemberName": "Demo Person Account",
+                    "IsDisable": "No",
+                    "LastName": "Person Account",
+                    "PersonAge": 3,
+                    "PersonGenderIdentity": "F",
+                    "PrimaryCitizenshipType": "No",
+                    "Relationship": "Spouse"
+                }
+            ],
+            "HouseholdInformation": {
+                "PSS_BM_v3_AreThereChildrenInTheHousehold": true,
+                "PSS_BM_v3_AreThereElderlyHouseholdMembers": false,
+                "PSS_BM_v3_Check_if_any_household_member_has_a_disability": "No",
+                "PSS_BM_v3_HouseholdMemberDetails": null,
+                "PSS_BM_v3_HouseholdSize": 2,
+                "PSS_BM_v3_Select_the_programs_that_you_ve_applied_for": "Health Care/Medicaid;Housing Assistance"
+            },
+            "Income": {
+                "AreMultipleProofsOfIncomeSubmitted": false,
+                "HouseholdIncomeRecordsCount": 0,
+                "MaximumIncomeDetailsValidation": true,
+                "PSS_BM_v3_ExistingHouseholdIncomeDetails": [
+                    {
+                        "IncomeAdded": null,
+                        "PSS_BM_RemoveIncomeChangeSelected": false,
+                        "PSS_BM_UpdateIncomeChangeSelected": false,
+                        "PSS_BM_v3_Employer": "oracle",
+                        "PSS_BM_v3_ExistingIncomeCurrentMonth": 123,
+                        "PSS_BM_v3_IncomeCurrentMonth": 123,
+                        "PSS_BM_v3_IncomeFrequency": "Monthly",
+                        "PSS_BM_v3_IncomeHouseholdMemberName": "Aman Gulati",
+                        "PSS_BM_v3_NewMember": false,
+                        "PSS_BM_v3_StartDate": "2023-09-01"
+                    },
+                    {
+                        "IncomeAdded": "Add income details",
+                        "IncomeChange": null,
+                        "MemberAdded": "Yes",
+                        "PSS_BM_RemoveIncomeChangeSelected": false,
+                        "PSS_BM_UpdateIncomeChangeSelected": false,
+                        "PSS_BM_v3_IncomeCurrentMonth": 10,
+                        "PSS_BM_v3_IncomeHouseholdMemberName": "Sachin Tendulkar",
+                        "PSS_BM_v3_NewMember": true
+                    }
+                ],
+                "PSS_BM_v3_RemovedHouseholdIncomeDetails": {
+                    "PSS_BM_v3_EmployerRemoved": "oracle",
+                    "PSS_BM_v3_ExistingIncomeCurrentMonthRemoved": 123,
+                    "PSS_BM_v3_IncomeCurrentMonthRemoved": 123,
+                    "PSS_BM_v3_IncomeFrequencyRemoved": "Monthly",
+                    "PSS_BM_v3_IncomeHouseholdMemberNameRemoved": "Ashish Gulati",
+                    "PSS_BM_v3_StartDateRemoved": "09/01/2023"
+                },
+                "TotalHouseholdIncome": 0
+            },
+            "IsReportChangeSelectionPageEdited": true,
+            "MemberList": [
+                {
+                    "LineBreak3": "",
+                    "LineBreak4": "",
+                    "PSS_BM_v3_Age": 3,
+                    "PSS_BM_v3_DateOfBirth": "2020-01-01",
+                    "PSS_BM_v3_Edit_Member_Details": "Remove this member",
+                    "PSS_BM_v3_Ethnicity": null,
+                    "PSS_BM_v3_Gender": "F",
+                    "PSS_BM_v3_GradeCompleted": null,
+                    "PSS_BM_v3_HouseholdMemberFirstName": "Demo",
+                    "PSS_BM_v3_HouseholdMemberLastName": "Person Account",
+                    "PSS_BM_v3_HouseholdMemberName": "Demo Person Account",
+                    "PSS_BM_v3_IsDisabled": "No",
+                    "PSS_BM_v3_Race": null,
+                    "PSS_BM_v3_Relationship": "Spouse",
+                    "PSS_BM_v3_ShouldEnableEditing": false,
+                    "PSS_BM_v3_USCitizen": "No"
+                },
+                {
+                    "LineBreak3": null,
+                    "LineBreak4": null,
+                    "PSS_BM_v3_Age": 0,
+                    "PSS_BM_v3_DateOfBirth": "2023-10-02",
+                    "PSS_BM_v3_Edit_Member_Details": "Add a new member",
+                    "PSS_BM_v3_Ethnicity": null,
+                    "PSS_BM_v3_Gender": "M",
+                    "PSS_BM_v3_GradeCompleted": "12",
+                    "PSS_BM_v3_HouseholdMemberFirstName": "ashish",
+                    "PSS_BM_v3_HouseholdMemberLastName": "gulati",
+                    "PSS_BM_v3_HouseholdMemberName": "ashish gulati",
+                    "PSS_BM_v3_IsDisabled": "Yes",
+                    "PSS_BM_v3_Race": null,
+                    "PSS_BM_v3_Relationship": "Son",
+                    "PSS_BM_v3_ShouldEnableEditing": true,
+                    "PSS_BM_v3_USCitizen": "Yes"
+                }
+            ],
+            "PSS_BM_CurrentHouseholdMemberDetails": [
+                {
+                    "PSS_BM_v3_Age": 23,
+                    "PSS_BM_v3_DateOfBirth": "2000-01-01",
+                    "PSS_BM_v3_Gender": "F",
+                    "PSS_BM_v3_HouseholdMemberFirstName": "9a Demo",
+                    "PSS_BM_v3_HouseholdMemberLastName": "Primary",
+                    "PSS_BM_v3_HouseholdMemberName": "9a Demo Primary",
+                    "PSS_BM_v3_IsDisabled": "Yes",
+                    "PSS_BM_v3_Relationship": "Spouse",
+                    "PSS_BM_v3_USCitizen": "No"
+                },
+                {
+                    "PSS_BM_v3_Age": 23,
+                    "PSS_BM_v3_DateOfBirth": "2000-10-01",
+                    "PSS_BM_v3_Gender": "F",
+                    "PSS_BM_v3_HouseholdMemberFirstName": "Wife",
+                    "PSS_BM_v3_HouseholdMemberLastName": "Demo",
+                    "PSS_BM_v3_HouseholdMemberName": "Wife Demo",
+                    "PSS_BM_v3_IsDisabled": "Yes",
+                    "PSS_BM_v3_Relationship": "Spouse",
+                    "PSS_BM_v3_USCitizen": "No"
+                }
+            ],
+            "PSS_BM_v3_HouseholdIncomeDetails": {
+                "PSS_BM_v3_Employer": "Oracle",
+                "PSS_BM_v3_ExistingIncomeCurrentMonth": 198,
+                "PSS_BM_v3_IncomeCurrentMonth": 198,
+                "PSS_BM_v3_IncomeFrequency": "Monthly",
+                "PSS_BM_v3_IncomeHouseholdMemberName": "Demo Person Account",
+                "PSS_BM_v3_StartDate": "09/01/2023"
+            },
+            "PSS_BM_v3_HouseholdMemberDetails": null,
+            "language": "English",
+            "localTimeZoneName": "Asia/Calcutta",
+            "omniProcessId": "0jNxx000000006cEAA",
+            "omniscriptId": "0jNxx000000006cEAA",
+            "runMode": "preview",
+            "sId": "0jNxx000000006cEAA",
+            "subType": "ReportChangeOfCircumstances",
+            "theme": "lightning",
+            "timeStamp": "2023-10-10T05:23:29.916Z",
+            "type": "ChangeOfCircumstances",
+            "userCurrencyCode": "USD",
+            "userId": "005xx000001X8PdAAK",
+            "userName": "ashish.gulati@ba.com",
+            "userProfile": "System Administrator",
+            "userTimeZone": "-420",
+            "userTimeZoneName": "America/Los_Angeles"
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English/SetValues1"
+}

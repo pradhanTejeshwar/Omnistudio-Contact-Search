@@ -1,0 +1,22 @@
+{
+    "EmbeddedOmniScriptKey": "ChangeOfCircumstances|SignatureCapture|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SignatureCapture",
+    "OmniProcessId": {
+        "Name": "ChangeOfCircumstancesReportChangeOfCircumstances",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "SignatureCapture",
+        "Type": "ChangeOfCircumstances",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/ReportChangeOfCircumstances/English/SignatureCapture"
+}

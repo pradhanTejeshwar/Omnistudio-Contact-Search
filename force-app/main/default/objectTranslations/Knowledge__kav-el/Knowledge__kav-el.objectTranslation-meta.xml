@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Knowledge Name --></nameFieldLabel>
+    <recordTypes>
+        <description>Άρθρα για παροχές στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Παροχές</label>
+        <name>HR_Benefits</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για σχέσεις υπαλλήλων στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Σχέσεις υπαλλήλων</label>
+        <name>HR_Employee_Relations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα γενικού περιεχομένου στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Γενικά</label>
+        <name>HR_General</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για άδειες στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Άδεια</label>
+        <name>HR_Leave</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για υποδοχή νέων μελών στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Υποδοχή νέων μελών</label>
+        <name>HR_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Άρθρα για μισθοδοσία στο Κέντρο εξυπηρέτησης HR</description>
+        <label>HR - Μισθοδοσία</label>
+        <name>HR_Payroll</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Δημιουργήστε ένα άρθρο γνωσιακής βάσης για περιεχόμενο τεχνολογίας της πληροφορικής, όπως ο εξοπλισμό, η πρόσβαση ή οι λύσεις επιδόσεων εφαρμογής</description>
+        <label>Άρθρο του Knowledge IT</label>
+        <name>IT_Knowledge_Article</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
