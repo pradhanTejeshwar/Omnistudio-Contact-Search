@@ -84,6 +84,4 @@ For deployment issues, check OmniStudio Runtime Permissions.
 
 **📽️ Demo & Documentation**
 
-Video Walkthrough: Google Drive Link (Upload your demo video & add link here)
-
-Step-by-Step Guide: Documentation.md (Create this file if needed)
+Video Walkthrough: [Google Drive Link](https://drive.google.com/file/d/1G3P6jgtO0retgvNa-Ynd0mFAckoHv64w/view?usp=sharing)
